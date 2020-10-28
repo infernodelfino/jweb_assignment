@@ -1,0 +1,17 @@
+
+.banner {
+    height: 40px;
+    background-color: #f7f7f7;
+}
+
+#banner {
+    border-bottom: 10px solid #000000;
+}
+
+html, body, .web-body {
+    height: calc(100vh - 40px);
+}
+
+.side-bar, .list-group-item {
+    background-color: #f7f7f7;
+}

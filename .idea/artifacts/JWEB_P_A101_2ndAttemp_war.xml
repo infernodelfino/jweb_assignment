@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="JWEB.P.A101_2ndAttemp:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>JWEB.P.A101_2ndAttemp</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="JWEB.P.A101_2ndAttemp.war">
+      <element id="artifact" artifact-name="JWEB.P.A101_2ndAttemp:war exploded" />
+    </root>
+  </artifact>
+</component>

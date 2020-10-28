@@ -1,0 +1,452 @@
+2020-10-07 00:52:24,088  INFO [http-nio-8080-exec-6] - org.hibernate.annotations.common.Version.<clinit> 66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2020-10-07 00:52:24,138  INFO [http-nio-8080-exec-6] - org.hibernate.Version.logVersion 54 - HHH000412: Hibernate Core {4.3.11.Final}
+2020-10-07 00:52:24,168  INFO [http-nio-8080-exec-6] - org.hibernate.cfg.Environment.<clinit> 239 - HHH000206: hibernate.properties not found
+2020-10-07 00:52:24,171  INFO [http-nio-8080-exec-6] - org.hibernate.cfg.Environment.buildBytecodeProvider 346 - HHH000021: Bytecode provider name : javassist
+2020-10-07 00:52:24,388  INFO [http-nio-8080-exec-6] - org.hibernate.cfg.Configuration.configure 2075 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2020-10-07 00:52:24,389  INFO [http-nio-8080-exec-6] - org.hibernate.cfg.Configuration.getConfigurationInputStream 2094 - HHH000040: Configuration resource: /hibernate.cfg.xml
+2020-10-07 00:52:24,565  INFO [http-nio-8080-exec-6] - org.hibernate.cfg.Configuration.doConfigure 2216 - HHH000041: Configured SessionFactory: null
+2020-10-07 00:52:25,025  WARN [http-nio-8080-exec-6] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure 93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2020-10-07 00:52:25,064  INFO [http-nio-8080-exec-6] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 166 - HHH000401: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:1433;databaseName=jweb_2nd_attemp]
+2020-10-07 00:52:25,065  INFO [http-nio-8080-exec-6] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 175 - HHH000046: Connection properties: {password=****, user=sa}
+2020-10-07 00:52:25,065  INFO [http-nio-8080-exec-6] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 180 - HHH000006: Autocommit mode: false
+2020-10-07 00:52:25,067  INFO [http-nio-8080-exec-6] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure 102 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-10-07 00:52:25,806  INFO [http-nio-8080-exec-6] - org.hibernate.dialect.Dialect.<init> 145 - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2020-10-07 00:52:26,570  INFO [http-nio-8080-exec-6] - org.hibernate.engine.transaction.internal.TransactionFactoryInitiator.initiateService 62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2020-10-07 00:52:26,596  INFO [http-nio-8080-exec-6] - org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory.<init> 47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-10-07 00:52:27,585  INFO [http-nio-8080-exec-6] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 207 - HHH000228: Running hbm2ddl schema update
+2020-10-07 00:52:27,586  INFO [http-nio-8080-exec-6] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 218 - HHH000102: Fetching database metadata
+2020-10-07 00:52:27,601  INFO [http-nio-8080-exec-6] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 230 - HHH000396: Updating schema
+2020-10-07 00:52:28,069  INFO [http-nio-8080-exec-6] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 65 - HHH000261: Table found: jweb_2nd_attemp.dbo.Content
+2020-10-07 00:52:28,069  INFO [http-nio-8080-exec-6] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 66 - HHH000037: Columns: [brief, member_id, update_time, id, sort, create_date, title, content]
+2020-10-07 00:52:28,069  INFO [http-nio-8080-exec-6] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 68 - HHH000108: Foreign keys: [fk_8w4exu9pljlkei9axt5fswbr6]
+2020-10-07 00:52:28,069  INFO [http-nio-8080-exec-6] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 69 - HHH000126: Indexes: [pk__content__3213e83ff5dab265]
+2020-10-07 00:52:28,097  INFO [http-nio-8080-exec-6] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 65 - HHH000261: Table found: jweb_2nd_attemp.dbo.Member
+2020-10-07 00:52:28,097  INFO [http-nio-8080-exec-6] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 66 - HHH000037: Columns: [password, update_time, phone, user_name, description, last_name, id, created_date, first_name, email]
+2020-10-07 00:52:28,097  INFO [http-nio-8080-exec-6] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 68 - HHH000108: Foreign keys: []
+2020-10-07 00:52:28,098  INFO [http-nio-8080-exec-6] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 69 - HHH000126: Indexes: [pk__member__3213e83f4794798f]
+2020-10-07 00:52:28,099  INFO [http-nio-8080-exec-6] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 267 - HHH000232: Schema update complete
+2020-10-07 00:52:52,174  INFO [http-nio-8080-exec-4] - org.hibernate.annotations.common.Version.<clinit> 66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2020-10-07 00:52:52,184  INFO [http-nio-8080-exec-4] - org.hibernate.Version.logVersion 54 - HHH000412: Hibernate Core {4.3.11.Final}
+2020-10-07 00:52:52,186  INFO [http-nio-8080-exec-4] - org.hibernate.cfg.Environment.<clinit> 239 - HHH000206: hibernate.properties not found
+2020-10-07 00:52:52,188  INFO [http-nio-8080-exec-4] - org.hibernate.cfg.Environment.buildBytecodeProvider 346 - HHH000021: Bytecode provider name : javassist
+2020-10-07 00:52:52,216  INFO [http-nio-8080-exec-4] - org.hibernate.cfg.Configuration.configure 2075 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2020-10-07 00:52:52,216  INFO [http-nio-8080-exec-4] - org.hibernate.cfg.Configuration.getConfigurationInputStream 2094 - HHH000040: Configuration resource: /hibernate.cfg.xml
+2020-10-07 00:52:52,263  INFO [http-nio-8080-exec-4] - org.hibernate.cfg.Configuration.doConfigure 2216 - HHH000041: Configured SessionFactory: null
+2020-10-07 00:52:52,365  WARN [http-nio-8080-exec-4] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure 93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2020-10-07 00:52:52,387  INFO [http-nio-8080-exec-4] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 166 - HHH000401: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:1433;databaseName=jweb_2nd_attemp]
+2020-10-07 00:52:52,388  INFO [http-nio-8080-exec-4] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 175 - HHH000046: Connection properties: {password=****, user=sa}
+2020-10-07 00:52:52,388  INFO [http-nio-8080-exec-4] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 180 - HHH000006: Autocommit mode: false
+2020-10-07 00:52:52,390  INFO [http-nio-8080-exec-4] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure 102 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-10-07 00:52:52,541  INFO [http-nio-8080-exec-4] - org.hibernate.dialect.Dialect.<init> 145 - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2020-10-07 00:52:52,738  INFO [http-nio-8080-exec-4] - org.hibernate.engine.transaction.internal.TransactionFactoryInitiator.initiateService 62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2020-10-07 00:52:52,745  INFO [http-nio-8080-exec-4] - org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory.<init> 47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-10-07 00:52:53,022  INFO [http-nio-8080-exec-4] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 207 - HHH000228: Running hbm2ddl schema update
+2020-10-07 00:52:53,022  INFO [http-nio-8080-exec-4] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 218 - HHH000102: Fetching database metadata
+2020-10-07 00:52:53,026  INFO [http-nio-8080-exec-4] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 230 - HHH000396: Updating schema
+2020-10-07 00:52:53,084  INFO [http-nio-8080-exec-4] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 65 - HHH000261: Table found: jweb_2nd_attemp.dbo.Content
+2020-10-07 00:52:53,084  INFO [http-nio-8080-exec-4] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 66 - HHH000037: Columns: [brief, member_id, update_time, id, sort, create_date, title, content]
+2020-10-07 00:52:53,084  INFO [http-nio-8080-exec-4] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 68 - HHH000108: Foreign keys: [fk_8w4exu9pljlkei9axt5fswbr6]
+2020-10-07 00:52:53,084  INFO [http-nio-8080-exec-4] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 69 - HHH000126: Indexes: [pk__content__3213e83ff5dab265]
+2020-10-07 00:52:53,104  INFO [http-nio-8080-exec-4] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 65 - HHH000261: Table found: jweb_2nd_attemp.dbo.Member
+2020-10-07 00:52:53,104  INFO [http-nio-8080-exec-4] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 66 - HHH000037: Columns: [password, update_time, phone, user_name, description, last_name, id, created_date, first_name, email]
+2020-10-07 00:52:53,104  INFO [http-nio-8080-exec-4] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 68 - HHH000108: Foreign keys: []
+2020-10-07 00:52:53,105  INFO [http-nio-8080-exec-4] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 69 - HHH000126: Indexes: [pk__member__3213e83f4794798f]
+2020-10-07 00:52:53,105  INFO [http-nio-8080-exec-4] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 267 - HHH000232: Schema update complete
+2020-10-07 00:57:33,112  INFO [http-nio-8080-exec-15] - org.hibernate.annotations.common.Version.<clinit> 66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2020-10-07 00:57:33,125  INFO [http-nio-8080-exec-15] - org.hibernate.Version.logVersion 54 - HHH000412: Hibernate Core {4.3.11.Final}
+2020-10-07 00:57:33,127  INFO [http-nio-8080-exec-15] - org.hibernate.cfg.Environment.<clinit> 239 - HHH000206: hibernate.properties not found
+2020-10-07 00:57:33,129  INFO [http-nio-8080-exec-15] - org.hibernate.cfg.Environment.buildBytecodeProvider 346 - HHH000021: Bytecode provider name : javassist
+2020-10-07 00:57:33,159  INFO [http-nio-8080-exec-15] - org.hibernate.cfg.Configuration.configure 2075 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2020-10-07 00:57:33,159  INFO [http-nio-8080-exec-15] - org.hibernate.cfg.Configuration.getConfigurationInputStream 2094 - HHH000040: Configuration resource: /hibernate.cfg.xml
+2020-10-07 00:57:33,211  INFO [http-nio-8080-exec-15] - org.hibernate.cfg.Configuration.doConfigure 2216 - HHH000041: Configured SessionFactory: null
+2020-10-07 00:57:33,350  WARN [http-nio-8080-exec-15] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure 93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2020-10-07 00:57:33,390  INFO [http-nio-8080-exec-15] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 166 - HHH000401: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:1433;databaseName=jweb_2nd_attemp]
+2020-10-07 00:57:33,390  INFO [http-nio-8080-exec-15] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 175 - HHH000046: Connection properties: {password=****, user=sa}
+2020-10-07 00:57:33,391  INFO [http-nio-8080-exec-15] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 180 - HHH000006: Autocommit mode: false
+2020-10-07 00:57:33,393  INFO [http-nio-8080-exec-15] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure 102 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-10-07 00:57:33,652  INFO [http-nio-8080-exec-15] - org.hibernate.dialect.Dialect.<init> 145 - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2020-10-07 00:57:33,862  INFO [http-nio-8080-exec-15] - org.hibernate.engine.transaction.internal.TransactionFactoryInitiator.initiateService 62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2020-10-07 00:57:33,869  INFO [http-nio-8080-exec-15] - org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory.<init> 47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-10-07 00:57:34,280  INFO [http-nio-8080-exec-15] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 207 - HHH000228: Running hbm2ddl schema update
+2020-10-07 00:57:34,280  INFO [http-nio-8080-exec-15] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 218 - HHH000102: Fetching database metadata
+2020-10-07 00:57:34,292  INFO [http-nio-8080-exec-15] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 230 - HHH000396: Updating schema
+2020-10-07 00:57:34,634  INFO [http-nio-8080-exec-15] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 65 - HHH000261: Table found: jweb_2nd_attemp.dbo.Content
+2020-10-07 00:57:34,634  INFO [http-nio-8080-exec-15] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 66 - HHH000037: Columns: [brief, member_id, update_time, id, sort, create_date, title, content]
+2020-10-07 00:57:34,634  INFO [http-nio-8080-exec-15] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 68 - HHH000108: Foreign keys: [fk_8w4exu9pljlkei9axt5fswbr6]
+2020-10-07 00:57:34,634  INFO [http-nio-8080-exec-15] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 69 - HHH000126: Indexes: [pk__content__3213e83ff5dab265]
+2020-10-07 00:57:34,657  INFO [http-nio-8080-exec-15] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 65 - HHH000261: Table found: jweb_2nd_attemp.dbo.Member
+2020-10-07 00:57:34,658  INFO [http-nio-8080-exec-15] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 66 - HHH000037: Columns: [password, update_time, phone, user_name, description, last_name, id, created_date, first_name, email]
+2020-10-07 00:57:34,658  INFO [http-nio-8080-exec-15] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 68 - HHH000108: Foreign keys: []
+2020-10-07 00:57:34,658  INFO [http-nio-8080-exec-15] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 69 - HHH000126: Indexes: [pk__member__3213e83f4794798f]
+2020-10-07 00:57:34,659  INFO [http-nio-8080-exec-15] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 267 - HHH000232: Schema update complete
+2020-10-07 01:04:57,860  INFO [http-nio-8080-exec-33] - org.hibernate.annotations.common.Version.<clinit> 66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2020-10-07 01:04:57,870  INFO [http-nio-8080-exec-33] - org.hibernate.Version.logVersion 54 - HHH000412: Hibernate Core {4.3.11.Final}
+2020-10-07 01:04:57,872  INFO [http-nio-8080-exec-33] - org.hibernate.cfg.Environment.<clinit> 239 - HHH000206: hibernate.properties not found
+2020-10-07 01:04:57,873  INFO [http-nio-8080-exec-33] - org.hibernate.cfg.Environment.buildBytecodeProvider 346 - HHH000021: Bytecode provider name : javassist
+2020-10-07 01:04:57,899  INFO [http-nio-8080-exec-33] - org.hibernate.cfg.Configuration.configure 2075 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2020-10-07 01:04:57,900  INFO [http-nio-8080-exec-33] - org.hibernate.cfg.Configuration.getConfigurationInputStream 2094 - HHH000040: Configuration resource: /hibernate.cfg.xml
+2020-10-07 01:04:57,943  INFO [http-nio-8080-exec-33] - org.hibernate.cfg.Configuration.doConfigure 2216 - HHH000041: Configured SessionFactory: null
+2020-10-07 01:04:58,050  WARN [http-nio-8080-exec-33] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure 93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2020-10-07 01:04:58,074  INFO [http-nio-8080-exec-33] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 166 - HHH000401: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:1433;databaseName=jweb_2nd_attemp]
+2020-10-07 01:04:58,074  INFO [http-nio-8080-exec-33] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 175 - HHH000046: Connection properties: {password=****, user=sa}
+2020-10-07 01:04:58,074  INFO [http-nio-8080-exec-33] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 180 - HHH000006: Autocommit mode: false
+2020-10-07 01:04:58,076  INFO [http-nio-8080-exec-33] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure 102 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-10-07 01:04:58,293  INFO [http-nio-8080-exec-33] - org.hibernate.dialect.Dialect.<init> 145 - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2020-10-07 01:04:58,479  INFO [http-nio-8080-exec-33] - org.hibernate.engine.transaction.internal.TransactionFactoryInitiator.initiateService 62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2020-10-07 01:04:58,485  INFO [http-nio-8080-exec-33] - org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory.<init> 47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-10-07 01:04:58,766  INFO [http-nio-8080-exec-33] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 207 - HHH000228: Running hbm2ddl schema update
+2020-10-07 01:04:58,766  INFO [http-nio-8080-exec-33] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 218 - HHH000102: Fetching database metadata
+2020-10-07 01:04:58,780  INFO [http-nio-8080-exec-33] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 230 - HHH000396: Updating schema
+2020-10-07 01:04:59,107  INFO [http-nio-8080-exec-33] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 65 - HHH000261: Table found: jweb_2nd_attemp.dbo.Content
+2020-10-07 01:04:59,107  INFO [http-nio-8080-exec-33] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 66 - HHH000037: Columns: [brief, member_id, update_time, id, sort, create_date, title, content]
+2020-10-07 01:04:59,107  INFO [http-nio-8080-exec-33] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 68 - HHH000108: Foreign keys: [fk_8w4exu9pljlkei9axt5fswbr6]
+2020-10-07 01:04:59,107  INFO [http-nio-8080-exec-33] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 69 - HHH000126: Indexes: [pk__content__3213e83ff5dab265]
+2020-10-07 01:04:59,128  INFO [http-nio-8080-exec-33] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 65 - HHH000261: Table found: jweb_2nd_attemp.dbo.Member
+2020-10-07 01:04:59,129  INFO [http-nio-8080-exec-33] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 66 - HHH000037: Columns: [password, update_time, phone, user_name, description, last_name, id, created_date, first_name, email]
+2020-10-07 01:04:59,129  INFO [http-nio-8080-exec-33] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 68 - HHH000108: Foreign keys: []
+2020-10-07 01:04:59,129  INFO [http-nio-8080-exec-33] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 69 - HHH000126: Indexes: [pk__member__3213e83f4794798f]
+2020-10-07 01:04:59,130  INFO [http-nio-8080-exec-33] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 267 - HHH000232: Schema update complete
+2020-10-07 01:20:02,155  INFO [http-nio-8080-exec-3] - org.hibernate.annotations.common.Version.<clinit> 66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2020-10-07 01:20:02,167  INFO [http-nio-8080-exec-3] - org.hibernate.Version.logVersion 54 - HHH000412: Hibernate Core {4.3.11.Final}
+2020-10-07 01:20:02,171  INFO [http-nio-8080-exec-3] - org.hibernate.cfg.Environment.<clinit> 239 - HHH000206: hibernate.properties not found
+2020-10-07 01:20:02,172  INFO [http-nio-8080-exec-3] - org.hibernate.cfg.Environment.buildBytecodeProvider 346 - HHH000021: Bytecode provider name : javassist
+2020-10-07 01:20:02,205  INFO [http-nio-8080-exec-3] - org.hibernate.cfg.Configuration.configure 2075 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2020-10-07 01:20:02,205  INFO [http-nio-8080-exec-3] - org.hibernate.cfg.Configuration.getConfigurationInputStream 2094 - HHH000040: Configuration resource: /hibernate.cfg.xml
+2020-10-07 01:20:02,264  INFO [http-nio-8080-exec-3] - org.hibernate.cfg.Configuration.doConfigure 2216 - HHH000041: Configured SessionFactory: null
+2020-10-07 01:20:02,382  WARN [http-nio-8080-exec-3] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure 93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2020-10-07 01:20:02,409  INFO [http-nio-8080-exec-3] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 166 - HHH000401: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:1433;databaseName=jweb_2nd_attemp]
+2020-10-07 01:20:02,410  INFO [http-nio-8080-exec-3] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 175 - HHH000046: Connection properties: {password=****, user=sa}
+2020-10-07 01:20:02,410  INFO [http-nio-8080-exec-3] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 180 - HHH000006: Autocommit mode: false
+2020-10-07 01:20:02,412  INFO [http-nio-8080-exec-3] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure 102 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-10-07 01:20:02,833  INFO [http-nio-8080-exec-3] - org.hibernate.dialect.Dialect.<init> 145 - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2020-10-07 01:20:03,079  INFO [http-nio-8080-exec-3] - org.hibernate.engine.transaction.internal.TransactionFactoryInitiator.initiateService 62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2020-10-07 01:20:03,087  INFO [http-nio-8080-exec-3] - org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory.<init> 47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-10-07 01:20:03,405  INFO [http-nio-8080-exec-3] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 207 - HHH000228: Running hbm2ddl schema update
+2020-10-07 01:20:03,406  INFO [http-nio-8080-exec-3] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 218 - HHH000102: Fetching database metadata
+2020-10-07 01:20:03,419  INFO [http-nio-8080-exec-3] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 230 - HHH000396: Updating schema
+2020-10-07 01:20:03,751  INFO [http-nio-8080-exec-3] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 65 - HHH000261: Table found: jweb_2nd_attemp.dbo.Content
+2020-10-07 01:20:03,751  INFO [http-nio-8080-exec-3] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 66 - HHH000037: Columns: [brief, member_id, update_time, id, sort, create_date, title, content]
+2020-10-07 01:20:03,752  INFO [http-nio-8080-exec-3] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 68 - HHH000108: Foreign keys: [fk_8w4exu9pljlkei9axt5fswbr6]
+2020-10-07 01:20:03,752  INFO [http-nio-8080-exec-3] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 69 - HHH000126: Indexes: [pk__content__3213e83ff5dab265]
+2020-10-07 01:20:03,773  INFO [http-nio-8080-exec-3] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 65 - HHH000261: Table found: jweb_2nd_attemp.dbo.Member
+2020-10-07 01:20:03,774  INFO [http-nio-8080-exec-3] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 66 - HHH000037: Columns: [password, update_time, phone, user_name, description, last_name, id, created_date, first_name, email]
+2020-10-07 01:20:03,774  INFO [http-nio-8080-exec-3] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 68 - HHH000108: Foreign keys: []
+2020-10-07 01:20:03,774  INFO [http-nio-8080-exec-3] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 69 - HHH000126: Indexes: [pk__member__3213e83f4794798f]
+2020-10-07 01:20:03,775  INFO [http-nio-8080-exec-3] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 267 - HHH000232: Schema update complete
+2020-10-07 01:23:48,925  INFO [http-nio-8080-exec-1] - org.hibernate.annotations.common.Version.<clinit> 66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2020-10-07 01:23:48,936  INFO [http-nio-8080-exec-1] - org.hibernate.Version.logVersion 54 - HHH000412: Hibernate Core {4.3.11.Final}
+2020-10-07 01:23:48,938  INFO [http-nio-8080-exec-1] - org.hibernate.cfg.Environment.<clinit> 239 - HHH000206: hibernate.properties not found
+2020-10-07 01:23:48,940  INFO [http-nio-8080-exec-1] - org.hibernate.cfg.Environment.buildBytecodeProvider 346 - HHH000021: Bytecode provider name : javassist
+2020-10-07 01:23:48,968  INFO [http-nio-8080-exec-1] - org.hibernate.cfg.Configuration.configure 2075 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2020-10-07 01:23:48,968  INFO [http-nio-8080-exec-1] - org.hibernate.cfg.Configuration.getConfigurationInputStream 2094 - HHH000040: Configuration resource: /hibernate.cfg.xml
+2020-10-07 01:23:49,018  INFO [http-nio-8080-exec-1] - org.hibernate.cfg.Configuration.doConfigure 2216 - HHH000041: Configured SessionFactory: null
+2020-10-07 01:23:49,130  WARN [http-nio-8080-exec-1] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure 93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2020-10-07 01:23:49,157  INFO [http-nio-8080-exec-1] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 166 - HHH000401: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:1433;databaseName=jweb_2nd_attemp]
+2020-10-07 01:23:49,157  INFO [http-nio-8080-exec-1] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 175 - HHH000046: Connection properties: {password=****, user=sa}
+2020-10-07 01:23:49,158  INFO [http-nio-8080-exec-1] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 180 - HHH000006: Autocommit mode: false
+2020-10-07 01:23:49,160  INFO [http-nio-8080-exec-1] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure 102 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-10-07 01:23:49,325  INFO [http-nio-8080-exec-1] - org.hibernate.dialect.Dialect.<init> 145 - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2020-10-07 01:23:49,512  INFO [http-nio-8080-exec-1] - org.hibernate.engine.transaction.internal.TransactionFactoryInitiator.initiateService 62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2020-10-07 01:23:49,518  INFO [http-nio-8080-exec-1] - org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory.<init> 47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-10-07 01:23:49,801  INFO [http-nio-8080-exec-1] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 207 - HHH000228: Running hbm2ddl schema update
+2020-10-07 01:23:49,801  INFO [http-nio-8080-exec-1] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 218 - HHH000102: Fetching database metadata
+2020-10-07 01:23:49,811  INFO [http-nio-8080-exec-1] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 230 - HHH000396: Updating schema
+2020-10-07 01:23:50,141  INFO [http-nio-8080-exec-1] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 65 - HHH000261: Table found: jweb_2nd_attemp.dbo.Content
+2020-10-07 01:23:50,141  INFO [http-nio-8080-exec-1] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 66 - HHH000037: Columns: [brief, member_id, update_time, id, sort, create_date, title, content]
+2020-10-07 01:23:50,141  INFO [http-nio-8080-exec-1] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 68 - HHH000108: Foreign keys: [fk_8w4exu9pljlkei9axt5fswbr6]
+2020-10-07 01:23:50,141  INFO [http-nio-8080-exec-1] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 69 - HHH000126: Indexes: [pk__content__3213e83ff5dab265]
+2020-10-07 01:23:50,162  INFO [http-nio-8080-exec-1] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 65 - HHH000261: Table found: jweb_2nd_attemp.dbo.Member
+2020-10-07 01:23:50,162  INFO [http-nio-8080-exec-1] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 66 - HHH000037: Columns: [password, update_time, phone, user_name, description, last_name, id, created_date, first_name, email]
+2020-10-07 01:23:50,162  INFO [http-nio-8080-exec-1] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 68 - HHH000108: Foreign keys: []
+2020-10-07 01:23:50,162  INFO [http-nio-8080-exec-1] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 69 - HHH000126: Indexes: [pk__member__3213e83f4794798f]
+2020-10-07 01:23:50,163  INFO [http-nio-8080-exec-1] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 267 - HHH000232: Schema update complete
+2020-10-07 01:25:05,258  INFO [http-nio-8080-exec-4] - org.hibernate.annotations.common.Version.<clinit> 66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2020-10-07 01:25:05,276  INFO [http-nio-8080-exec-4] - org.hibernate.Version.logVersion 54 - HHH000412: Hibernate Core {4.3.11.Final}
+2020-10-07 01:25:05,280  INFO [http-nio-8080-exec-4] - org.hibernate.cfg.Environment.<clinit> 239 - HHH000206: hibernate.properties not found
+2020-10-07 01:25:05,283  INFO [http-nio-8080-exec-4] - org.hibernate.cfg.Environment.buildBytecodeProvider 346 - HHH000021: Bytecode provider name : javassist
+2020-10-07 01:25:05,330  INFO [http-nio-8080-exec-4] - org.hibernate.cfg.Configuration.configure 2075 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2020-10-07 01:25:05,330  INFO [http-nio-8080-exec-4] - org.hibernate.cfg.Configuration.getConfigurationInputStream 2094 - HHH000040: Configuration resource: /hibernate.cfg.xml
+2020-10-07 01:25:05,413  INFO [http-nio-8080-exec-4] - org.hibernate.cfg.Configuration.doConfigure 2216 - HHH000041: Configured SessionFactory: null
+2020-10-07 01:25:05,579  WARN [http-nio-8080-exec-4] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure 93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2020-10-07 01:25:05,627  INFO [http-nio-8080-exec-4] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 166 - HHH000401: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:1433;databaseName=jweb_2nd_attemp]
+2020-10-07 01:25:05,628  INFO [http-nio-8080-exec-4] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 175 - HHH000046: Connection properties: {password=****, user=sa}
+2020-10-07 01:25:05,628  INFO [http-nio-8080-exec-4] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 180 - HHH000006: Autocommit mode: false
+2020-10-07 01:25:05,631  INFO [http-nio-8080-exec-4] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure 102 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-10-07 01:25:06,156  INFO [http-nio-8080-exec-4] - org.hibernate.dialect.Dialect.<init> 145 - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2020-10-07 01:25:06,458  INFO [http-nio-8080-exec-4] - org.hibernate.engine.transaction.internal.TransactionFactoryInitiator.initiateService 62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2020-10-07 01:25:06,467  INFO [http-nio-8080-exec-4] - org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory.<init> 47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-10-07 01:25:06,853  INFO [http-nio-8080-exec-4] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 207 - HHH000228: Running hbm2ddl schema update
+2020-10-07 01:25:06,857  INFO [http-nio-8080-exec-4] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 218 - HHH000102: Fetching database metadata
+2020-10-07 01:25:06,869  INFO [http-nio-8080-exec-4] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 230 - HHH000396: Updating schema
+2020-10-07 01:25:07,204  INFO [http-nio-8080-exec-4] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 65 - HHH000261: Table found: jweb_2nd_attemp.dbo.Content
+2020-10-07 01:25:07,205  INFO [http-nio-8080-exec-4] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 66 - HHH000037: Columns: [brief, member_id, update_time, id, sort, create_date, title, content]
+2020-10-07 01:25:07,205  INFO [http-nio-8080-exec-4] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 68 - HHH000108: Foreign keys: [fk_8w4exu9pljlkei9axt5fswbr6]
+2020-10-07 01:25:07,205  INFO [http-nio-8080-exec-4] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 69 - HHH000126: Indexes: [pk__content__3213e83ff5dab265]
+2020-10-07 01:25:07,228  INFO [http-nio-8080-exec-4] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 65 - HHH000261: Table found: jweb_2nd_attemp.dbo.Member
+2020-10-07 01:25:07,228  INFO [http-nio-8080-exec-4] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 66 - HHH000037: Columns: [password, update_time, phone, user_name, description, last_name, id, created_date, first_name, email]
+2020-10-07 01:25:07,228  INFO [http-nio-8080-exec-4] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 68 - HHH000108: Foreign keys: []
+2020-10-07 01:25:07,228  INFO [http-nio-8080-exec-4] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 69 - HHH000126: Indexes: [pk__member__3213e83f4794798f]
+2020-10-07 01:25:07,230  INFO [http-nio-8080-exec-4] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 267 - HHH000232: Schema update complete
+2020-10-07 01:26:34,975  INFO [http-nio-8080-exec-2] - org.hibernate.annotations.common.Version.<clinit> 66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2020-10-07 01:26:34,987  INFO [http-nio-8080-exec-2] - org.hibernate.Version.logVersion 54 - HHH000412: Hibernate Core {4.3.11.Final}
+2020-10-07 01:26:34,991  INFO [http-nio-8080-exec-2] - org.hibernate.cfg.Environment.<clinit> 239 - HHH000206: hibernate.properties not found
+2020-10-07 01:26:34,992  INFO [http-nio-8080-exec-2] - org.hibernate.cfg.Environment.buildBytecodeProvider 346 - HHH000021: Bytecode provider name : javassist
+2020-10-07 01:26:35,024  INFO [http-nio-8080-exec-2] - org.hibernate.cfg.Configuration.configure 2075 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2020-10-07 01:26:35,024  INFO [http-nio-8080-exec-2] - org.hibernate.cfg.Configuration.getConfigurationInputStream 2094 - HHH000040: Configuration resource: /hibernate.cfg.xml
+2020-10-07 01:26:35,075  INFO [http-nio-8080-exec-2] - org.hibernate.cfg.Configuration.doConfigure 2216 - HHH000041: Configured SessionFactory: null
+2020-10-07 01:26:35,195  WARN [http-nio-8080-exec-2] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure 93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2020-10-07 01:26:35,221  INFO [http-nio-8080-exec-2] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 166 - HHH000401: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:1433;databaseName=jweb_2nd_attemp]
+2020-10-07 01:26:35,221  INFO [http-nio-8080-exec-2] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 175 - HHH000046: Connection properties: {password=****, user=sa}
+2020-10-07 01:26:35,222  INFO [http-nio-8080-exec-2] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 180 - HHH000006: Autocommit mode: false
+2020-10-07 01:26:35,224  INFO [http-nio-8080-exec-2] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure 102 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-10-07 01:26:35,401  INFO [http-nio-8080-exec-2] - org.hibernate.dialect.Dialect.<init> 145 - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2020-10-07 01:26:35,608  INFO [http-nio-8080-exec-2] - org.hibernate.engine.transaction.internal.TransactionFactoryInitiator.initiateService 62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2020-10-07 01:26:35,615  INFO [http-nio-8080-exec-2] - org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory.<init> 47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-10-07 01:26:35,949  INFO [http-nio-8080-exec-2] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 207 - HHH000228: Running hbm2ddl schema update
+2020-10-07 01:26:35,949  INFO [http-nio-8080-exec-2] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 218 - HHH000102: Fetching database metadata
+2020-10-07 01:26:35,963  INFO [http-nio-8080-exec-2] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 230 - HHH000396: Updating schema
+2020-10-07 01:26:36,315  INFO [http-nio-8080-exec-2] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 65 - HHH000261: Table found: jweb_2nd_attemp.dbo.Content
+2020-10-07 01:26:36,315  INFO [http-nio-8080-exec-2] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 66 - HHH000037: Columns: [brief, member_id, update_time, id, sort, create_date, title, content]
+2020-10-07 01:26:36,315  INFO [http-nio-8080-exec-2] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 68 - HHH000108: Foreign keys: [fk_8w4exu9pljlkei9axt5fswbr6]
+2020-10-07 01:26:36,316  INFO [http-nio-8080-exec-2] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 69 - HHH000126: Indexes: [pk__content__3213e83ff5dab265]
+2020-10-07 01:26:36,337  INFO [http-nio-8080-exec-2] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 65 - HHH000261: Table found: jweb_2nd_attemp.dbo.Member
+2020-10-07 01:26:36,337  INFO [http-nio-8080-exec-2] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 66 - HHH000037: Columns: [password, update_time, phone, user_name, description, last_name, id, created_date, first_name, email]
+2020-10-07 01:26:36,338  INFO [http-nio-8080-exec-2] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 68 - HHH000108: Foreign keys: []
+2020-10-07 01:26:36,338  INFO [http-nio-8080-exec-2] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 69 - HHH000126: Indexes: [pk__member__3213e83f4794798f]
+2020-10-07 01:26:36,339  INFO [http-nio-8080-exec-2] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 267 - HHH000232: Schema update complete
+2020-10-07 01:33:31,958  INFO [http-nio-8080-exec-4] - org.hibernate.annotations.common.Version.<clinit> 66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2020-10-07 01:33:31,971  INFO [http-nio-8080-exec-4] - org.hibernate.Version.logVersion 54 - HHH000412: Hibernate Core {4.3.11.Final}
+2020-10-07 01:33:31,974  INFO [http-nio-8080-exec-4] - org.hibernate.cfg.Environment.<clinit> 239 - HHH000206: hibernate.properties not found
+2020-10-07 01:33:31,976  INFO [http-nio-8080-exec-4] - org.hibernate.cfg.Environment.buildBytecodeProvider 346 - HHH000021: Bytecode provider name : javassist
+2020-10-07 01:33:32,009  INFO [http-nio-8080-exec-4] - org.hibernate.cfg.Configuration.configure 2075 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2020-10-07 01:33:32,009  INFO [http-nio-8080-exec-4] - org.hibernate.cfg.Configuration.getConfigurationInputStream 2094 - HHH000040: Configuration resource: /hibernate.cfg.xml
+2020-10-07 01:33:32,065  INFO [http-nio-8080-exec-4] - org.hibernate.cfg.Configuration.doConfigure 2216 - HHH000041: Configured SessionFactory: null
+2020-10-07 01:33:32,188  WARN [http-nio-8080-exec-4] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure 93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2020-10-07 01:33:32,216  INFO [http-nio-8080-exec-4] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 166 - HHH000401: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:1433;databaseName=jweb_2nd_attemp]
+2020-10-07 01:33:32,216  INFO [http-nio-8080-exec-4] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 175 - HHH000046: Connection properties: {password=****, user=sa}
+2020-10-07 01:33:32,216  INFO [http-nio-8080-exec-4] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 180 - HHH000006: Autocommit mode: false
+2020-10-07 01:33:32,218  INFO [http-nio-8080-exec-4] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure 102 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-10-07 01:33:32,605  INFO [http-nio-8080-exec-4] - org.hibernate.dialect.Dialect.<init> 145 - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2020-10-07 01:33:32,837  INFO [http-nio-8080-exec-4] - org.hibernate.engine.transaction.internal.TransactionFactoryInitiator.initiateService 62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2020-10-07 01:33:32,845  INFO [http-nio-8080-exec-4] - org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory.<init> 47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-10-07 01:33:33,169  INFO [http-nio-8080-exec-4] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 207 - HHH000228: Running hbm2ddl schema update
+2020-10-07 01:33:33,170  INFO [http-nio-8080-exec-4] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 218 - HHH000102: Fetching database metadata
+2020-10-07 01:33:33,183  INFO [http-nio-8080-exec-4] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 230 - HHH000396: Updating schema
+2020-10-07 01:33:33,507  INFO [http-nio-8080-exec-4] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 65 - HHH000261: Table found: jweb_2nd_attemp.dbo.Content
+2020-10-07 01:33:33,508  INFO [http-nio-8080-exec-4] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 66 - HHH000037: Columns: [brief, member_id, update_time, id, sort, create_date, title, content]
+2020-10-07 01:33:33,508  INFO [http-nio-8080-exec-4] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 68 - HHH000108: Foreign keys: [fk_8w4exu9pljlkei9axt5fswbr6]
+2020-10-07 01:33:33,508  INFO [http-nio-8080-exec-4] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 69 - HHH000126: Indexes: [pk__content__3213e83ff5dab265]
+2020-10-07 01:33:33,530  INFO [http-nio-8080-exec-4] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 65 - HHH000261: Table found: jweb_2nd_attemp.dbo.Member
+2020-10-07 01:33:33,530  INFO [http-nio-8080-exec-4] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 66 - HHH000037: Columns: [password, update_time, phone, user_name, description, last_name, id, created_date, first_name, email]
+2020-10-07 01:33:33,530  INFO [http-nio-8080-exec-4] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 68 - HHH000108: Foreign keys: []
+2020-10-07 01:33:33,531  INFO [http-nio-8080-exec-4] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 69 - HHH000126: Indexes: [pk__member__3213e83f4794798f]
+2020-10-07 01:33:33,532  INFO [http-nio-8080-exec-4] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 267 - HHH000232: Schema update complete
+2020-10-07 01:33:57,316  INFO [http-nio-8080-exec-8] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.stop 281 - HHH000030: Cleaning up connection pool [jdbc:sqlserver://localhost:1433;databaseName=jweb_2nd_attemp]
+2020-10-07 01:35:27,287  INFO [http-nio-8080-exec-3] - org.hibernate.cfg.Configuration.configure 2075 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2020-10-07 01:35:27,287  INFO [http-nio-8080-exec-3] - org.hibernate.cfg.Configuration.getConfigurationInputStream 2094 - HHH000040: Configuration resource: /hibernate.cfg.xml
+2020-10-07 01:35:27,296  INFO [http-nio-8080-exec-3] - org.hibernate.cfg.Configuration.doConfigure 2216 - HHH000041: Configured SessionFactory: null
+2020-10-07 01:35:27,300  WARN [http-nio-8080-exec-3] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure 93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2020-10-07 01:35:27,300  INFO [http-nio-8080-exec-3] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 166 - HHH000401: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:1433;databaseName=jweb_2nd_attemp]
+2020-10-07 01:35:27,300  INFO [http-nio-8080-exec-3] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 175 - HHH000046: Connection properties: {password=****, user=sa}
+2020-10-07 01:35:27,301  INFO [http-nio-8080-exec-3] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 180 - HHH000006: Autocommit mode: false
+2020-10-07 01:35:27,301  INFO [http-nio-8080-exec-3] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure 102 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-10-07 01:35:27,331  INFO [http-nio-8080-exec-3] - org.hibernate.dialect.Dialect.<init> 145 - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2020-10-07 01:35:27,341  INFO [http-nio-8080-exec-3] - org.hibernate.engine.transaction.internal.TransactionFactoryInitiator.initiateService 62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2020-10-07 01:35:27,341  INFO [http-nio-8080-exec-3] - org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory.<init> 47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-10-07 01:35:27,350  INFO [http-nio-8080-exec-3] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 207 - HHH000228: Running hbm2ddl schema update
+2020-10-07 01:35:27,350  INFO [http-nio-8080-exec-3] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 218 - HHH000102: Fetching database metadata
+2020-10-07 01:35:27,352  INFO [http-nio-8080-exec-3] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 230 - HHH000396: Updating schema
+2020-10-07 01:35:27,379  INFO [http-nio-8080-exec-3] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 65 - HHH000261: Table found: jweb_2nd_attemp.dbo.Content
+2020-10-07 01:35:27,380  INFO [http-nio-8080-exec-3] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 66 - HHH000037: Columns: [brief, member_id, update_time, id, sort, create_date, title, content]
+2020-10-07 01:35:27,380  INFO [http-nio-8080-exec-3] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 68 - HHH000108: Foreign keys: [fk_8w4exu9pljlkei9axt5fswbr6]
+2020-10-07 01:35:27,380  INFO [http-nio-8080-exec-3] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 69 - HHH000126: Indexes: [pk__content__3213e83ff5dab265]
+2020-10-07 01:35:27,402  INFO [http-nio-8080-exec-3] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 65 - HHH000261: Table found: jweb_2nd_attemp.dbo.Member
+2020-10-07 01:35:27,402  INFO [http-nio-8080-exec-3] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 66 - HHH000037: Columns: [password, update_time, phone, user_name, description, last_name, id, created_date, first_name, email]
+2020-10-07 01:35:27,402  INFO [http-nio-8080-exec-3] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 68 - HHH000108: Foreign keys: []
+2020-10-07 01:35:27,402  INFO [http-nio-8080-exec-3] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 69 - HHH000126: Indexes: [pk__member__3213e83f4794798f]
+2020-10-07 01:35:27,403  INFO [http-nio-8080-exec-3] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 267 - HHH000232: Schema update complete
+2020-10-07 01:41:40,410  INFO [http-nio-8080-exec-4] - org.hibernate.annotations.common.Version.<clinit> 66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2020-10-07 01:41:40,423  INFO [http-nio-8080-exec-4] - org.hibernate.Version.logVersion 54 - HHH000412: Hibernate Core {4.3.11.Final}
+2020-10-07 01:41:40,426  INFO [http-nio-8080-exec-4] - org.hibernate.cfg.Environment.<clinit> 239 - HHH000206: hibernate.properties not found
+2020-10-07 01:41:40,427  INFO [http-nio-8080-exec-4] - org.hibernate.cfg.Environment.buildBytecodeProvider 346 - HHH000021: Bytecode provider name : javassist
+2020-10-07 01:41:40,460  INFO [http-nio-8080-exec-4] - org.hibernate.cfg.Configuration.configure 2075 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2020-10-07 01:41:40,460  INFO [http-nio-8080-exec-4] - org.hibernate.cfg.Configuration.getConfigurationInputStream 2094 - HHH000040: Configuration resource: /hibernate.cfg.xml
+2020-10-07 01:41:40,517  INFO [http-nio-8080-exec-4] - org.hibernate.cfg.Configuration.doConfigure 2216 - HHH000041: Configured SessionFactory: null
+2020-10-07 01:41:40,646  WARN [http-nio-8080-exec-4] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure 93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2020-10-07 01:41:40,674  INFO [http-nio-8080-exec-4] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 166 - HHH000401: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:1433;databaseName=jweb_2nd_attemp]
+2020-10-07 01:41:40,674  INFO [http-nio-8080-exec-4] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 175 - HHH000046: Connection properties: {password=****, user=sa}
+2020-10-07 01:41:40,674  INFO [http-nio-8080-exec-4] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 180 - HHH000006: Autocommit mode: false
+2020-10-07 01:41:40,676  INFO [http-nio-8080-exec-4] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure 102 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-10-07 01:41:41,041  INFO [http-nio-8080-exec-4] - org.hibernate.dialect.Dialect.<init> 145 - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2020-10-07 01:41:41,275  INFO [http-nio-8080-exec-4] - org.hibernate.engine.transaction.internal.TransactionFactoryInitiator.initiateService 62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2020-10-07 01:41:41,283  INFO [http-nio-8080-exec-4] - org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory.<init> 47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-10-07 01:41:41,601  INFO [http-nio-8080-exec-4] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 207 - HHH000228: Running hbm2ddl schema update
+2020-10-07 01:41:41,602  INFO [http-nio-8080-exec-4] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 218 - HHH000102: Fetching database metadata
+2020-10-07 01:41:41,615  INFO [http-nio-8080-exec-4] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 230 - HHH000396: Updating schema
+2020-10-07 01:41:41,943  INFO [http-nio-8080-exec-4] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 65 - HHH000261: Table found: jweb_2nd_attemp.dbo.Content
+2020-10-07 01:41:41,943  INFO [http-nio-8080-exec-4] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 66 - HHH000037: Columns: [brief, member_id, update_time, id, sort, create_date, title, content]
+2020-10-07 01:41:41,943  INFO [http-nio-8080-exec-4] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 68 - HHH000108: Foreign keys: [fk_8w4exu9pljlkei9axt5fswbr6]
+2020-10-07 01:41:41,944  INFO [http-nio-8080-exec-4] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 69 - HHH000126: Indexes: [pk__content__3213e83ff5dab265]
+2020-10-07 01:41:41,966  INFO [http-nio-8080-exec-4] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 65 - HHH000261: Table found: jweb_2nd_attemp.dbo.Member
+2020-10-07 01:41:41,966  INFO [http-nio-8080-exec-4] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 66 - HHH000037: Columns: [password, update_time, phone, user_name, description, last_name, id, created_date, first_name, email]
+2020-10-07 01:41:41,966  INFO [http-nio-8080-exec-4] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 68 - HHH000108: Foreign keys: []
+2020-10-07 01:41:41,966  INFO [http-nio-8080-exec-4] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 69 - HHH000126: Indexes: [pk__member__3213e83f4794798f]
+2020-10-07 01:41:41,967  INFO [http-nio-8080-exec-4] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 267 - HHH000232: Schema update complete
+2020-10-07 01:41:49,821  INFO [http-nio-8080-exec-7] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.stop 281 - HHH000030: Cleaning up connection pool [jdbc:sqlserver://localhost:1433;databaseName=jweb_2nd_attemp]
+2020-10-07 01:41:49,823  INFO [http-nio-8080-exec-7] - org.hibernate.cfg.Configuration.configure 2075 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2020-10-07 01:41:49,824  INFO [http-nio-8080-exec-7] - org.hibernate.cfg.Configuration.getConfigurationInputStream 2094 - HHH000040: Configuration resource: /hibernate.cfg.xml
+2020-10-07 01:41:49,827  INFO [http-nio-8080-exec-7] - org.hibernate.cfg.Configuration.doConfigure 2216 - HHH000041: Configured SessionFactory: null
+2020-10-07 01:41:49,831  WARN [http-nio-8080-exec-7] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure 93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2020-10-07 01:41:49,831  INFO [http-nio-8080-exec-7] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 166 - HHH000401: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:1433;databaseName=jweb_2nd_attemp]
+2020-10-07 01:41:49,831  INFO [http-nio-8080-exec-7] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 175 - HHH000046: Connection properties: {password=****, user=sa}
+2020-10-07 01:41:49,831  INFO [http-nio-8080-exec-7] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 180 - HHH000006: Autocommit mode: false
+2020-10-07 01:41:49,832  INFO [http-nio-8080-exec-7] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure 102 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-10-07 01:41:49,859  INFO [http-nio-8080-exec-7] - org.hibernate.dialect.Dialect.<init> 145 - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2020-10-07 01:41:49,868  INFO [http-nio-8080-exec-7] - org.hibernate.engine.transaction.internal.TransactionFactoryInitiator.initiateService 62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2020-10-07 01:41:49,869  INFO [http-nio-8080-exec-7] - org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory.<init> 47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-10-07 01:41:49,877  INFO [http-nio-8080-exec-7] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 207 - HHH000228: Running hbm2ddl schema update
+2020-10-07 01:41:49,877  INFO [http-nio-8080-exec-7] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 218 - HHH000102: Fetching database metadata
+2020-10-07 01:41:49,879  INFO [http-nio-8080-exec-7] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 230 - HHH000396: Updating schema
+2020-10-07 01:41:49,905  INFO [http-nio-8080-exec-7] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 65 - HHH000261: Table found: jweb_2nd_attemp.dbo.Content
+2020-10-07 01:41:49,905  INFO [http-nio-8080-exec-7] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 66 - HHH000037: Columns: [brief, member_id, update_time, id, sort, create_date, title, content]
+2020-10-07 01:41:49,906  INFO [http-nio-8080-exec-7] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 68 - HHH000108: Foreign keys: [fk_8w4exu9pljlkei9axt5fswbr6]
+2020-10-07 01:41:49,906  INFO [http-nio-8080-exec-7] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 69 - HHH000126: Indexes: [pk__content__3213e83ff5dab265]
+2020-10-07 01:41:49,929  INFO [http-nio-8080-exec-7] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 65 - HHH000261: Table found: jweb_2nd_attemp.dbo.Member
+2020-10-07 01:41:49,929  INFO [http-nio-8080-exec-7] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 66 - HHH000037: Columns: [password, update_time, phone, user_name, description, last_name, id, created_date, first_name, email]
+2020-10-07 01:41:49,929  INFO [http-nio-8080-exec-7] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 68 - HHH000108: Foreign keys: []
+2020-10-07 01:41:49,929  INFO [http-nio-8080-exec-7] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 69 - HHH000126: Indexes: [pk__member__3213e83f4794798f]
+2020-10-07 01:41:49,929  INFO [http-nio-8080-exec-7] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 267 - HHH000232: Schema update complete
+2020-10-07 01:41:49,933  INFO [http-nio-8080-exec-7] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.stop 281 - HHH000030: Cleaning up connection pool [jdbc:sqlserver://localhost:1433;databaseName=jweb_2nd_attemp]
+2020-10-07 01:45:32,623  INFO [http-nio-8080-exec-5] - org.hibernate.annotations.common.Version.<clinit> 66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2020-10-07 01:45:32,642  INFO [http-nio-8080-exec-5] - org.hibernate.Version.logVersion 54 - HHH000412: Hibernate Core {4.3.11.Final}
+2020-10-07 01:45:32,645  INFO [http-nio-8080-exec-5] - org.hibernate.cfg.Environment.<clinit> 239 - HHH000206: hibernate.properties not found
+2020-10-07 01:45:32,647  INFO [http-nio-8080-exec-5] - org.hibernate.cfg.Environment.buildBytecodeProvider 346 - HHH000021: Bytecode provider name : javassist
+2020-10-07 01:45:32,686  INFO [http-nio-8080-exec-5] - org.hibernate.cfg.Configuration.configure 2075 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2020-10-07 01:45:32,687  INFO [http-nio-8080-exec-5] - org.hibernate.cfg.Configuration.getConfigurationInputStream 2094 - HHH000040: Configuration resource: /hibernate.cfg.xml
+2020-10-07 01:45:32,751  INFO [http-nio-8080-exec-5] - org.hibernate.cfg.Configuration.doConfigure 2216 - HHH000041: Configured SessionFactory: null
+2020-10-07 01:45:32,878  WARN [http-nio-8080-exec-5] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure 93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2020-10-07 01:45:32,906  INFO [http-nio-8080-exec-5] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 166 - HHH000401: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:1433;databaseName=jweb_2nd_attemp]
+2020-10-07 01:45:32,907  INFO [http-nio-8080-exec-5] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 175 - HHH000046: Connection properties: {password=****, user=sa}
+2020-10-07 01:45:32,907  INFO [http-nio-8080-exec-5] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 180 - HHH000006: Autocommit mode: false
+2020-10-07 01:45:32,909  INFO [http-nio-8080-exec-5] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure 102 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-10-07 01:45:33,285  INFO [http-nio-8080-exec-5] - org.hibernate.dialect.Dialect.<init> 145 - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2020-10-07 01:45:33,495  INFO [http-nio-8080-exec-5] - org.hibernate.engine.transaction.internal.TransactionFactoryInitiator.initiateService 62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2020-10-07 01:45:33,502  INFO [http-nio-8080-exec-5] - org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory.<init> 47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-10-07 01:45:33,832  INFO [http-nio-8080-exec-5] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 207 - HHH000228: Running hbm2ddl schema update
+2020-10-07 01:45:33,833  INFO [http-nio-8080-exec-5] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 218 - HHH000102: Fetching database metadata
+2020-10-07 01:45:33,844  INFO [http-nio-8080-exec-5] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 230 - HHH000396: Updating schema
+2020-10-07 01:45:34,165  INFO [http-nio-8080-exec-5] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 65 - HHH000261: Table found: jweb_2nd_attemp.dbo.Content
+2020-10-07 01:45:34,165  INFO [http-nio-8080-exec-5] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 66 - HHH000037: Columns: [brief, member_id, update_time, id, sort, create_date, title, content]
+2020-10-07 01:45:34,166  INFO [http-nio-8080-exec-5] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 68 - HHH000108: Foreign keys: [fk_8w4exu9pljlkei9axt5fswbr6]
+2020-10-07 01:45:34,166  INFO [http-nio-8080-exec-5] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 69 - HHH000126: Indexes: [pk__content__3213e83ff5dab265]
+2020-10-07 01:45:34,188  INFO [http-nio-8080-exec-5] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 65 - HHH000261: Table found: jweb_2nd_attemp.dbo.Member
+2020-10-07 01:45:34,188  INFO [http-nio-8080-exec-5] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 66 - HHH000037: Columns: [password, update_time, phone, user_name, description, last_name, id, created_date, first_name, email]
+2020-10-07 01:45:34,188  INFO [http-nio-8080-exec-5] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 68 - HHH000108: Foreign keys: []
+2020-10-07 01:45:34,188  INFO [http-nio-8080-exec-5] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 69 - HHH000126: Indexes: [pk__member__3213e83f4794798f]
+2020-10-07 01:45:34,189  INFO [http-nio-8080-exec-5] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 267 - HHH000232: Schema update complete
+2020-10-07 01:47:45,787  INFO [http-nio-8080-exec-4] - org.hibernate.annotations.common.Version.<clinit> 66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2020-10-07 01:47:45,925  INFO [http-nio-8080-exec-4] - org.hibernate.Version.logVersion 54 - HHH000412: Hibernate Core {4.3.11.Final}
+2020-10-07 01:47:45,957  INFO [http-nio-8080-exec-4] - org.hibernate.cfg.Environment.<clinit> 239 - HHH000206: hibernate.properties not found
+2020-10-07 01:47:45,980  INFO [http-nio-8080-exec-4] - org.hibernate.cfg.Environment.buildBytecodeProvider 346 - HHH000021: Bytecode provider name : javassist
+2020-10-07 01:47:46,444  INFO [http-nio-8080-exec-4] - org.hibernate.cfg.Configuration.configure 2075 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2020-10-07 01:47:46,445  INFO [http-nio-8080-exec-4] - org.hibernate.cfg.Configuration.getConfigurationInputStream 2094 - HHH000040: Configuration resource: /hibernate.cfg.xml
+2020-10-07 01:47:47,052  INFO [http-nio-8080-exec-4] - org.hibernate.cfg.Configuration.doConfigure 2216 - HHH000041: Configured SessionFactory: null
+2020-10-07 01:47:48,925  WARN [http-nio-8080-exec-4] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure 93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2020-10-07 01:47:50,123  INFO [http-nio-8080-exec-4] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 166 - HHH000401: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:1433;databaseName=jweb_2nd_attemp]
+2020-10-07 01:47:50,124  INFO [http-nio-8080-exec-4] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 175 - HHH000046: Connection properties: {password=****, user=sa}
+2020-10-07 01:47:50,125  INFO [http-nio-8080-exec-4] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 180 - HHH000006: Autocommit mode: false
+2020-10-07 01:47:50,150  INFO [http-nio-8080-exec-4] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure 102 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-10-07 01:47:56,016  INFO [http-nio-8080-exec-4] - org.hibernate.dialect.Dialect.<init> 145 - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2020-10-07 01:47:59,087  INFO [http-nio-8080-exec-4] - org.hibernate.engine.transaction.internal.TransactionFactoryInitiator.initiateService 62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2020-10-07 01:47:59,187  INFO [http-nio-8080-exec-4] - org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory.<init> 47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-10-07 01:48:03,879  INFO [http-nio-8080-exec-4] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 207 - HHH000228: Running hbm2ddl schema update
+2020-10-07 01:48:03,885  INFO [http-nio-8080-exec-4] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 218 - HHH000102: Fetching database metadata
+2020-10-07 01:48:03,915  INFO [http-nio-8080-exec-4] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 230 - HHH000396: Updating schema
+2020-10-07 01:48:05,579  INFO [http-nio-8080-exec-4] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 65 - HHH000261: Table found: jweb_2nd_attemp.dbo.Content
+2020-10-07 01:48:05,580  INFO [http-nio-8080-exec-4] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 66 - HHH000037: Columns: [brief, member_id, update_time, id, sort, create_date, title, content]
+2020-10-07 01:48:05,580  INFO [http-nio-8080-exec-4] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 68 - HHH000108: Foreign keys: [fk_8w4exu9pljlkei9axt5fswbr6]
+2020-10-07 01:48:05,581  INFO [http-nio-8080-exec-4] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 69 - HHH000126: Indexes: [pk__content__3213e83ff5dab265]
+2020-10-07 01:48:05,621  INFO [http-nio-8080-exec-4] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 65 - HHH000261: Table found: jweb_2nd_attemp.dbo.Member
+2020-10-07 01:48:05,622  INFO [http-nio-8080-exec-4] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 66 - HHH000037: Columns: [password, update_time, phone, user_name, description, last_name, id, created_date, first_name, email]
+2020-10-07 01:48:05,623  INFO [http-nio-8080-exec-4] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 68 - HHH000108: Foreign keys: []
+2020-10-07 01:48:05,623  INFO [http-nio-8080-exec-4] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 69 - HHH000126: Indexes: [pk__member__3213e83f4794798f]
+2020-10-07 01:48:05,632  INFO [http-nio-8080-exec-4] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 267 - HHH000232: Schema update complete
+2020-10-07 01:53:46,228  INFO [http-nio-8080-exec-4] - org.hibernate.annotations.common.Version.<clinit> 66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2020-10-07 01:53:46,245  INFO [http-nio-8080-exec-4] - org.hibernate.Version.logVersion 54 - HHH000412: Hibernate Core {4.3.11.Final}
+2020-10-07 01:53:46,249  INFO [http-nio-8080-exec-4] - org.hibernate.cfg.Environment.<clinit> 239 - HHH000206: hibernate.properties not found
+2020-10-07 01:53:46,251  INFO [http-nio-8080-exec-4] - org.hibernate.cfg.Environment.buildBytecodeProvider 346 - HHH000021: Bytecode provider name : javassist
+2020-10-07 01:53:46,283  INFO [http-nio-8080-exec-4] - org.hibernate.cfg.Configuration.configure 2075 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2020-10-07 01:53:46,283  INFO [http-nio-8080-exec-4] - org.hibernate.cfg.Configuration.getConfigurationInputStream 2094 - HHH000040: Configuration resource: /hibernate.cfg.xml
+2020-10-07 01:53:46,337  INFO [http-nio-8080-exec-4] - org.hibernate.cfg.Configuration.doConfigure 2216 - HHH000041: Configured SessionFactory: null
+2020-10-07 01:53:46,467  WARN [http-nio-8080-exec-4] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure 93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2020-10-07 01:53:46,496  INFO [http-nio-8080-exec-4] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 166 - HHH000401: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:1433;databaseName=jweb_2nd_attemp]
+2020-10-07 01:53:46,496  INFO [http-nio-8080-exec-4] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 175 - HHH000046: Connection properties: {password=****, user=sa}
+2020-10-07 01:53:46,497  INFO [http-nio-8080-exec-4] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 180 - HHH000006: Autocommit mode: false
+2020-10-07 01:53:46,498  INFO [http-nio-8080-exec-4] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure 102 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-10-07 01:53:46,897  INFO [http-nio-8080-exec-4] - org.hibernate.dialect.Dialect.<init> 145 - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2020-10-07 01:53:47,121  INFO [http-nio-8080-exec-4] - org.hibernate.engine.transaction.internal.TransactionFactoryInitiator.initiateService 62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2020-10-07 01:53:47,128  INFO [http-nio-8080-exec-4] - org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory.<init> 47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-10-07 01:53:47,478  INFO [http-nio-8080-exec-4] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 207 - HHH000228: Running hbm2ddl schema update
+2020-10-07 01:53:47,479  INFO [http-nio-8080-exec-4] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 218 - HHH000102: Fetching database metadata
+2020-10-07 01:53:47,494  INFO [http-nio-8080-exec-4] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 230 - HHH000396: Updating schema
+2020-10-07 01:53:47,841  INFO [http-nio-8080-exec-4] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 65 - HHH000261: Table found: jweb_2nd_attemp.dbo.Content
+2020-10-07 01:53:47,841  INFO [http-nio-8080-exec-4] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 66 - HHH000037: Columns: [brief, member_id, update_time, id, sort, create_date, title, content]
+2020-10-07 01:53:47,842  INFO [http-nio-8080-exec-4] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 68 - HHH000108: Foreign keys: [fk_8w4exu9pljlkei9axt5fswbr6]
+2020-10-07 01:53:47,842  INFO [http-nio-8080-exec-4] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 69 - HHH000126: Indexes: [pk__content__3213e83ff5dab265]
+2020-10-07 01:53:47,863  INFO [http-nio-8080-exec-4] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 65 - HHH000261: Table found: jweb_2nd_attemp.dbo.Member
+2020-10-07 01:53:47,863  INFO [http-nio-8080-exec-4] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 66 - HHH000037: Columns: [password, update_time, phone, user_name, description, last_name, id, created_date, first_name, email]
+2020-10-07 01:53:47,863  INFO [http-nio-8080-exec-4] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 68 - HHH000108: Foreign keys: []
+2020-10-07 01:53:47,863  INFO [http-nio-8080-exec-4] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 69 - HHH000126: Indexes: [pk__member__3213e83f4794798f]
+2020-10-07 01:53:47,864  INFO [http-nio-8080-exec-4] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 267 - HHH000232: Schema update complete
+2020-10-07 01:55:34,419  INFO [http-nio-8080-exec-4] - org.hibernate.annotations.common.Version.<clinit> 66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2020-10-07 01:55:34,434  INFO [http-nio-8080-exec-4] - org.hibernate.Version.logVersion 54 - HHH000412: Hibernate Core {4.3.11.Final}
+2020-10-07 01:55:34,437  INFO [http-nio-8080-exec-4] - org.hibernate.cfg.Environment.<clinit> 239 - HHH000206: hibernate.properties not found
+2020-10-07 01:55:34,439  INFO [http-nio-8080-exec-4] - org.hibernate.cfg.Environment.buildBytecodeProvider 346 - HHH000021: Bytecode provider name : javassist
+2020-10-07 01:55:34,471  INFO [http-nio-8080-exec-4] - org.hibernate.cfg.Configuration.configure 2075 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2020-10-07 01:55:34,472  INFO [http-nio-8080-exec-4] - org.hibernate.cfg.Configuration.getConfigurationInputStream 2094 - HHH000040: Configuration resource: /hibernate.cfg.xml
+2020-10-07 01:55:34,526  INFO [http-nio-8080-exec-4] - org.hibernate.cfg.Configuration.doConfigure 2216 - HHH000041: Configured SessionFactory: null
+2020-10-07 01:55:34,653  WARN [http-nio-8080-exec-4] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure 93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2020-10-07 01:55:34,679  INFO [http-nio-8080-exec-4] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 166 - HHH000401: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:1433;databaseName=jweb_2nd_attemp]
+2020-10-07 01:55:34,680  INFO [http-nio-8080-exec-4] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 175 - HHH000046: Connection properties: {password=****, user=sa}
+2020-10-07 01:55:34,680  INFO [http-nio-8080-exec-4] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 180 - HHH000006: Autocommit mode: false
+2020-10-07 01:55:34,682  INFO [http-nio-8080-exec-4] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure 102 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-10-07 01:55:35,074  INFO [http-nio-8080-exec-4] - org.hibernate.dialect.Dialect.<init> 145 - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2020-10-07 01:55:35,331  INFO [http-nio-8080-exec-4] - org.hibernate.engine.transaction.internal.TransactionFactoryInitiator.initiateService 62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2020-10-07 01:55:35,338  INFO [http-nio-8080-exec-4] - org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory.<init> 47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-10-07 01:55:35,654  INFO [http-nio-8080-exec-4] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 207 - HHH000228: Running hbm2ddl schema update
+2020-10-07 01:55:35,655  INFO [http-nio-8080-exec-4] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 218 - HHH000102: Fetching database metadata
+2020-10-07 01:55:35,666  INFO [http-nio-8080-exec-4] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 230 - HHH000396: Updating schema
+2020-10-07 01:55:35,994  INFO [http-nio-8080-exec-4] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 65 - HHH000261: Table found: jweb_2nd_attemp.dbo.Content
+2020-10-07 01:55:35,995  INFO [http-nio-8080-exec-4] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 66 - HHH000037: Columns: [brief, member_id, update_time, id, sort, create_date, title, content]
+2020-10-07 01:55:35,995  INFO [http-nio-8080-exec-4] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 68 - HHH000108: Foreign keys: [fk_8w4exu9pljlkei9axt5fswbr6]
+2020-10-07 01:55:35,995  INFO [http-nio-8080-exec-4] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 69 - HHH000126: Indexes: [pk__content__3213e83ff5dab265]
+2020-10-07 01:55:36,018  INFO [http-nio-8080-exec-4] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 65 - HHH000261: Table found: jweb_2nd_attemp.dbo.Member
+2020-10-07 01:55:36,018  INFO [http-nio-8080-exec-4] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 66 - HHH000037: Columns: [password, update_time, phone, user_name, description, last_name, id, created_date, first_name, email]
+2020-10-07 01:55:36,018  INFO [http-nio-8080-exec-4] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 68 - HHH000108: Foreign keys: []
+2020-10-07 01:55:36,018  INFO [http-nio-8080-exec-4] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 69 - HHH000126: Indexes: [pk__member__3213e83f4794798f]
+2020-10-07 01:55:36,019  INFO [http-nio-8080-exec-4] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 267 - HHH000232: Schema update complete
+2020-10-07 01:55:40,523  INFO [http-nio-8080-exec-6] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.stop 281 - HHH000030: Cleaning up connection pool [jdbc:sqlserver://localhost:1433;databaseName=jweb_2nd_attemp]
+2020-10-07 01:55:40,524  INFO [http-nio-8080-exec-6] - org.hibernate.cfg.Configuration.configure 2075 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2020-10-07 01:55:40,525  INFO [http-nio-8080-exec-6] - org.hibernate.cfg.Configuration.getConfigurationInputStream 2094 - HHH000040: Configuration resource: /hibernate.cfg.xml
+2020-10-07 01:55:40,529  INFO [http-nio-8080-exec-6] - org.hibernate.cfg.Configuration.doConfigure 2216 - HHH000041: Configured SessionFactory: null
+2020-10-07 01:55:40,534  WARN [http-nio-8080-exec-6] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure 93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2020-10-07 01:55:40,534  INFO [http-nio-8080-exec-6] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 166 - HHH000401: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:1433;databaseName=jweb_2nd_attemp]
+2020-10-07 01:55:40,535  INFO [http-nio-8080-exec-6] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 175 - HHH000046: Connection properties: {password=****, user=sa}
+2020-10-07 01:55:40,535  INFO [http-nio-8080-exec-6] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 180 - HHH000006: Autocommit mode: false
+2020-10-07 01:55:40,535  INFO [http-nio-8080-exec-6] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure 102 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-10-07 01:55:40,557  INFO [http-nio-8080-exec-6] - org.hibernate.dialect.Dialect.<init> 145 - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2020-10-07 01:55:40,568  INFO [http-nio-8080-exec-6] - org.hibernate.engine.transaction.internal.TransactionFactoryInitiator.initiateService 62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2020-10-07 01:55:40,568  INFO [http-nio-8080-exec-6] - org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory.<init> 47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-10-07 01:55:40,576  INFO [http-nio-8080-exec-6] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 207 - HHH000228: Running hbm2ddl schema update
+2020-10-07 01:55:40,576  INFO [http-nio-8080-exec-6] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 218 - HHH000102: Fetching database metadata
+2020-10-07 01:55:40,579  INFO [http-nio-8080-exec-6] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 230 - HHH000396: Updating schema
+2020-10-07 01:55:40,606  INFO [http-nio-8080-exec-6] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 65 - HHH000261: Table found: jweb_2nd_attemp.dbo.Content
+2020-10-07 01:55:40,606  INFO [http-nio-8080-exec-6] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 66 - HHH000037: Columns: [brief, member_id, update_time, id, sort, create_date, title, content]
+2020-10-07 01:55:40,606  INFO [http-nio-8080-exec-6] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 68 - HHH000108: Foreign keys: [fk_8w4exu9pljlkei9axt5fswbr6]
+2020-10-07 01:55:40,606  INFO [http-nio-8080-exec-6] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 69 - HHH000126: Indexes: [pk__content__3213e83ff5dab265]
+2020-10-07 01:55:40,632  INFO [http-nio-8080-exec-6] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 65 - HHH000261: Table found: jweb_2nd_attemp.dbo.Member
+2020-10-07 01:55:40,632  INFO [http-nio-8080-exec-6] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 66 - HHH000037: Columns: [password, update_time, phone, user_name, description, last_name, id, created_date, first_name, email]
+2020-10-07 01:55:40,633  INFO [http-nio-8080-exec-6] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 68 - HHH000108: Foreign keys: []
+2020-10-07 01:55:40,633  INFO [http-nio-8080-exec-6] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 69 - HHH000126: Indexes: [pk__member__3213e83f4794798f]
+2020-10-07 01:55:40,633  INFO [http-nio-8080-exec-6] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 267 - HHH000232: Schema update complete
+2020-10-07 01:55:40,638  INFO [http-nio-8080-exec-6] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.stop 281 - HHH000030: Cleaning up connection pool [jdbc:sqlserver://localhost:1433;databaseName=jweb_2nd_attemp]

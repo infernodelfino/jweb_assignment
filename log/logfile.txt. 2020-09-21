@@ -1,0 +1,432 @@
+2020-09-21 23:45:52,622  INFO [main] - org.hibernate.annotations.common.Version.<clinit> 66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2020-09-21 23:45:52,627  INFO [main] - org.hibernate.Version.logVersion 54 - HHH000412: Hibernate Core {4.3.11.Final}
+2020-09-21 23:45:52,628  INFO [main] - org.hibernate.cfg.Environment.<clinit> 239 - HHH000206: hibernate.properties not found
+2020-09-21 23:45:52,629  INFO [main] - org.hibernate.cfg.Environment.buildBytecodeProvider 346 - HHH000021: Bytecode provider name : javassist
+2020-09-21 23:45:52,642  INFO [main] - org.hibernate.cfg.Configuration.configure 2075 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2020-09-21 23:45:52,642  INFO [main] - org.hibernate.cfg.Configuration.getConfigurationInputStream 2094 - HHH000040: Configuration resource: /hibernate.cfg.xml
+2020-09-21 23:45:52,684  INFO [main] - org.hibernate.cfg.Configuration.doConfigure 2216 - HHH000041: Configured SessionFactory: null
+2020-09-21 23:45:52,732  WARN [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure 93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2020-09-21 23:45:52,771  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 166 - HHH000401: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:1433;databaseName=jweb_2nd_attemp]
+2020-09-21 23:45:52,771  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 175 - HHH000046: Connection properties: {user=sa, password=****}
+2020-09-21 23:45:52,772  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 180 - HHH000006: Autocommit mode: false
+2020-09-21 23:45:52,773  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure 102 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-09-21 23:45:53,113  INFO [main] - org.hibernate.dialect.Dialect.<init> 145 - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2020-09-21 23:45:53,215  INFO [main] - org.hibernate.engine.transaction.internal.TransactionFactoryInitiator.initiateService 62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2020-09-21 23:45:53,225  INFO [main] - org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory.<init> 47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-09-21 23:45:53,365  INFO [main] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 207 - HHH000228: Running hbm2ddl schema update
+2020-09-21 23:45:53,366  INFO [main] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 218 - HHH000102: Fetching database metadata
+2020-09-21 23:45:53,371  INFO [main] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 230 - HHH000396: Updating schema
+2020-09-21 23:45:53,888  INFO [main] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 65 - HHH000261: Table found: jweb_2nd_attemp.dbo.Content
+2020-09-21 23:45:53,888  INFO [main] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 66 - HHH000037: Columns: [brief, member_id, update_time, id, sort, create_date, title, content]
+2020-09-21 23:45:53,888  INFO [main] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 68 - HHH000108: Foreign keys: [fk_8w4exu9pljlkei9axt5fswbr6]
+2020-09-21 23:45:53,888  INFO [main] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 69 - HHH000126: Indexes: [pk__content__3213e83f05680803]
+2020-09-21 23:45:53,918  INFO [main] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 65 - HHH000261: Table found: jweb_2nd_attemp.dbo.Member
+2020-09-21 23:45:53,918  INFO [main] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 66 - HHH000037: Columns: [password, update_time, phone, user_name, description, last_name, id, created_date, first_name, email]
+2020-09-21 23:45:53,918  INFO [main] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 68 - HHH000108: Foreign keys: []
+2020-09-21 23:45:53,919  INFO [main] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 69 - HHH000126: Indexes: [pk__member__3213e83f5c359ab8]
+2020-09-21 23:45:53,919  INFO [main] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 267 - HHH000232: Schema update complete
+2020-09-21 23:45:53,990  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.stop 281 - HHH000030: Cleaning up connection pool [jdbc:sqlserver://localhost:1433;databaseName=jweb_2nd_attemp]
+2020-09-21 23:45:53,991  INFO [main] - org.hibernate.cfg.Configuration.configure 2075 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2020-09-21 23:45:53,991  INFO [main] - org.hibernate.cfg.Configuration.getConfigurationInputStream 2094 - HHH000040: Configuration resource: /hibernate.cfg.xml
+2020-09-21 23:45:53,994  INFO [main] - org.hibernate.cfg.Configuration.doConfigure 2216 - HHH000041: Configured SessionFactory: null
+2020-09-21 23:45:53,996  WARN [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure 93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2020-09-21 23:45:53,997  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 166 - HHH000401: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:1433;databaseName=jweb_2nd_attemp]
+2020-09-21 23:45:53,997  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 175 - HHH000046: Connection properties: {user=sa, password=****}
+2020-09-21 23:45:53,997  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 180 - HHH000006: Autocommit mode: false
+2020-09-21 23:45:53,997  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure 102 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-09-21 23:45:54,010  INFO [main] - org.hibernate.dialect.Dialect.<init> 145 - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2020-09-21 23:45:54,015  INFO [main] - org.hibernate.engine.transaction.internal.TransactionFactoryInitiator.initiateService 62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2020-09-21 23:45:54,015  INFO [main] - org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory.<init> 47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-09-21 23:45:54,021  INFO [main] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 207 - HHH000228: Running hbm2ddl schema update
+2020-09-21 23:45:54,021  INFO [main] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 218 - HHH000102: Fetching database metadata
+2020-09-21 23:45:54,023  INFO [main] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 230 - HHH000396: Updating schema
+2020-09-21 23:45:54,043  INFO [main] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 65 - HHH000261: Table found: jweb_2nd_attemp.dbo.Content
+2020-09-21 23:45:54,043  INFO [main] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 66 - HHH000037: Columns: [brief, member_id, update_time, id, sort, create_date, title, content]
+2020-09-21 23:45:54,043  INFO [main] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 68 - HHH000108: Foreign keys: [fk_8w4exu9pljlkei9axt5fswbr6]
+2020-09-21 23:45:54,043  INFO [main] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 69 - HHH000126: Indexes: [pk__content__3213e83f05680803]
+2020-09-21 23:45:54,060  INFO [main] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 65 - HHH000261: Table found: jweb_2nd_attemp.dbo.Member
+2020-09-21 23:45:54,060  INFO [main] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 66 - HHH000037: Columns: [password, update_time, phone, user_name, description, last_name, id, created_date, first_name, email]
+2020-09-21 23:45:54,060  INFO [main] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 68 - HHH000108: Foreign keys: []
+2020-09-21 23:45:54,060  INFO [main] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 69 - HHH000126: Indexes: [pk__member__3213e83f5c359ab8]
+2020-09-21 23:45:54,061  INFO [main] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 267 - HHH000232: Schema update complete
+2020-09-21 23:45:54,062  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.stop 281 - HHH000030: Cleaning up connection pool [jdbc:sqlserver://localhost:1433;databaseName=jweb_2nd_attemp]
+2020-09-21 23:45:54,063  INFO [main] - org.hibernate.cfg.Configuration.configure 2075 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2020-09-21 23:45:54,063  INFO [main] - org.hibernate.cfg.Configuration.getConfigurationInputStream 2094 - HHH000040: Configuration resource: /hibernate.cfg.xml
+2020-09-21 23:45:54,066  INFO [main] - org.hibernate.cfg.Configuration.doConfigure 2216 - HHH000041: Configured SessionFactory: null
+2020-09-21 23:45:54,068  WARN [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure 93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2020-09-21 23:45:54,068  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 166 - HHH000401: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:1433;databaseName=jweb_2nd_attemp]
+2020-09-21 23:45:54,068  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 175 - HHH000046: Connection properties: {user=sa, password=****}
+2020-09-21 23:45:54,068  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 180 - HHH000006: Autocommit mode: false
+2020-09-21 23:45:54,068  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure 102 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-09-21 23:45:54,079  INFO [main] - org.hibernate.dialect.Dialect.<init> 145 - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2020-09-21 23:45:54,083  INFO [main] - org.hibernate.engine.transaction.internal.TransactionFactoryInitiator.initiateService 62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2020-09-21 23:45:54,084  INFO [main] - org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory.<init> 47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-09-21 23:45:54,090  INFO [main] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 207 - HHH000228: Running hbm2ddl schema update
+2020-09-21 23:45:54,090  INFO [main] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 218 - HHH000102: Fetching database metadata
+2020-09-21 23:45:54,095  INFO [main] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 230 - HHH000396: Updating schema
+2020-09-21 23:45:54,117  INFO [main] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 65 - HHH000261: Table found: jweb_2nd_attemp.dbo.Content
+2020-09-21 23:45:54,118  INFO [main] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 66 - HHH000037: Columns: [brief, member_id, update_time, id, sort, create_date, title, content]
+2020-09-21 23:45:54,118  INFO [main] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 68 - HHH000108: Foreign keys: [fk_8w4exu9pljlkei9axt5fswbr6]
+2020-09-21 23:45:54,118  INFO [main] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 69 - HHH000126: Indexes: [pk__content__3213e83f05680803]
+2020-09-21 23:45:54,134  INFO [main] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 65 - HHH000261: Table found: jweb_2nd_attemp.dbo.Member
+2020-09-21 23:45:54,134  INFO [main] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 66 - HHH000037: Columns: [password, update_time, phone, user_name, description, last_name, id, created_date, first_name, email]
+2020-09-21 23:45:54,134  INFO [main] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 68 - HHH000108: Foreign keys: []
+2020-09-21 23:45:54,134  INFO [main] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 69 - HHH000126: Indexes: [pk__member__3213e83f5c359ab8]
+2020-09-21 23:45:54,135  INFO [main] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 267 - HHH000232: Schema update complete
+2020-09-21 23:45:54,136  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.stop 281 - HHH000030: Cleaning up connection pool [jdbc:sqlserver://localhost:1433;databaseName=jweb_2nd_attemp]
+2020-09-21 23:45:54,137  INFO [main] - org.hibernate.cfg.Configuration.configure 2075 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2020-09-21 23:45:54,137  INFO [main] - org.hibernate.cfg.Configuration.getConfigurationInputStream 2094 - HHH000040: Configuration resource: /hibernate.cfg.xml
+2020-09-21 23:45:54,139  INFO [main] - org.hibernate.cfg.Configuration.doConfigure 2216 - HHH000041: Configured SessionFactory: null
+2020-09-21 23:45:54,141  WARN [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure 93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2020-09-21 23:45:54,141  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 166 - HHH000401: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:1433;databaseName=jweb_2nd_attemp]
+2020-09-21 23:45:54,142  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 175 - HHH000046: Connection properties: {user=sa, password=****}
+2020-09-21 23:45:54,142  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 180 - HHH000006: Autocommit mode: false
+2020-09-21 23:45:54,142  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure 102 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-09-21 23:45:54,154  INFO [main] - org.hibernate.dialect.Dialect.<init> 145 - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2020-09-21 23:45:54,160  INFO [main] - org.hibernate.engine.transaction.internal.TransactionFactoryInitiator.initiateService 62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2020-09-21 23:45:54,160  INFO [main] - org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory.<init> 47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-09-21 23:45:54,166  INFO [main] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 207 - HHH000228: Running hbm2ddl schema update
+2020-09-21 23:45:54,166  INFO [main] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 218 - HHH000102: Fetching database metadata
+2020-09-21 23:45:54,169  INFO [main] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 230 - HHH000396: Updating schema
+2020-09-21 23:45:54,189  INFO [main] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 65 - HHH000261: Table found: jweb_2nd_attemp.dbo.Content
+2020-09-21 23:45:54,189  INFO [main] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 66 - HHH000037: Columns: [brief, member_id, update_time, id, sort, create_date, title, content]
+2020-09-21 23:45:54,189  INFO [main] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 68 - HHH000108: Foreign keys: [fk_8w4exu9pljlkei9axt5fswbr6]
+2020-09-21 23:45:54,189  INFO [main] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 69 - HHH000126: Indexes: [pk__content__3213e83f05680803]
+2020-09-21 23:45:54,205  INFO [main] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 65 - HHH000261: Table found: jweb_2nd_attemp.dbo.Member
+2020-09-21 23:45:54,205  INFO [main] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 66 - HHH000037: Columns: [password, update_time, phone, user_name, description, last_name, id, created_date, first_name, email]
+2020-09-21 23:45:54,205  INFO [main] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 68 - HHH000108: Foreign keys: []
+2020-09-21 23:45:54,205  INFO [main] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 69 - HHH000126: Indexes: [pk__member__3213e83f5c359ab8]
+2020-09-21 23:45:54,206  INFO [main] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 267 - HHH000232: Schema update complete
+2020-09-21 23:45:54,276  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.stop 281 - HHH000030: Cleaning up connection pool [jdbc:sqlserver://localhost:1433;databaseName=jweb_2nd_attemp]
+2020-09-21 23:46:10,110  INFO [main] - org.hibernate.annotations.common.Version.<clinit> 66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2020-09-21 23:46:10,115  INFO [main] - org.hibernate.Version.logVersion 54 - HHH000412: Hibernate Core {4.3.11.Final}
+2020-09-21 23:46:10,117  INFO [main] - org.hibernate.cfg.Environment.<clinit> 239 - HHH000206: hibernate.properties not found
+2020-09-21 23:46:10,118  INFO [main] - org.hibernate.cfg.Environment.buildBytecodeProvider 346 - HHH000021: Bytecode provider name : javassist
+2020-09-21 23:46:10,131  INFO [main] - org.hibernate.cfg.Configuration.configure 2075 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2020-09-21 23:46:10,131  INFO [main] - org.hibernate.cfg.Configuration.getConfigurationInputStream 2094 - HHH000040: Configuration resource: /hibernate.cfg.xml
+2020-09-21 23:46:10,177  INFO [main] - org.hibernate.cfg.Configuration.doConfigure 2216 - HHH000041: Configured SessionFactory: null
+2020-09-21 23:46:10,225  WARN [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure 93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2020-09-21 23:46:10,261  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 166 - HHH000401: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:1433;databaseName=jweb_2nd_attemp]
+2020-09-21 23:46:10,262  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 175 - HHH000046: Connection properties: {user=sa, password=****}
+2020-09-21 23:46:10,262  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 180 - HHH000006: Autocommit mode: false
+2020-09-21 23:46:10,263  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure 102 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-09-21 23:46:10,590  INFO [main] - org.hibernate.dialect.Dialect.<init> 145 - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2020-09-21 23:46:10,690  INFO [main] - org.hibernate.engine.transaction.internal.TransactionFactoryInitiator.initiateService 62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2020-09-21 23:46:10,700  INFO [main] - org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory.<init> 47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-09-21 23:46:10,846  INFO [main] - org.hibernate.tool.hbm2ddl.SchemaExport.execute 344 - HHH000227: Running hbm2ddl schema export
+2020-09-21 23:46:10,897  INFO [main] - org.hibernate.tool.hbm2ddl.SchemaExport.execute 406 - HHH000230: Schema export complete
+2020-09-21 23:46:11,042  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.stop 281 - HHH000030: Cleaning up connection pool [jdbc:sqlserver://localhost:1433;databaseName=jweb_2nd_attemp]
+2020-09-21 23:46:11,043  INFO [main] - org.hibernate.cfg.Configuration.configure 2075 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2020-09-21 23:46:11,043  INFO [main] - org.hibernate.cfg.Configuration.getConfigurationInputStream 2094 - HHH000040: Configuration resource: /hibernate.cfg.xml
+2020-09-21 23:46:11,047  INFO [main] - org.hibernate.cfg.Configuration.doConfigure 2216 - HHH000041: Configured SessionFactory: null
+2020-09-21 23:46:11,049  WARN [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure 93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2020-09-21 23:46:11,049  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 166 - HHH000401: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:1433;databaseName=jweb_2nd_attemp]
+2020-09-21 23:46:11,050  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 175 - HHH000046: Connection properties: {user=sa, password=****}
+2020-09-21 23:46:11,050  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 180 - HHH000006: Autocommit mode: false
+2020-09-21 23:46:11,050  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure 102 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-09-21 23:46:11,064  INFO [main] - org.hibernate.dialect.Dialect.<init> 145 - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2020-09-21 23:46:11,069  INFO [main] - org.hibernate.engine.transaction.internal.TransactionFactoryInitiator.initiateService 62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2020-09-21 23:46:11,070  INFO [main] - org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory.<init> 47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-09-21 23:46:11,076  INFO [main] - org.hibernate.tool.hbm2ddl.SchemaExport.execute 344 - HHH000227: Running hbm2ddl schema export
+2020-09-21 23:46:11,083  INFO [main] - org.hibernate.tool.hbm2ddl.SchemaExport.execute 406 - HHH000230: Schema export complete
+2020-09-21 23:46:11,086  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.stop 281 - HHH000030: Cleaning up connection pool [jdbc:sqlserver://localhost:1433;databaseName=jweb_2nd_attemp]
+2020-09-21 23:46:11,087  INFO [main] - org.hibernate.cfg.Configuration.configure 2075 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2020-09-21 23:46:11,087  INFO [main] - org.hibernate.cfg.Configuration.getConfigurationInputStream 2094 - HHH000040: Configuration resource: /hibernate.cfg.xml
+2020-09-21 23:46:11,089  INFO [main] - org.hibernate.cfg.Configuration.doConfigure 2216 - HHH000041: Configured SessionFactory: null
+2020-09-21 23:46:11,091  WARN [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure 93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2020-09-21 23:46:11,092  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 166 - HHH000401: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:1433;databaseName=jweb_2nd_attemp]
+2020-09-21 23:46:11,092  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 175 - HHH000046: Connection properties: {user=sa, password=****}
+2020-09-21 23:46:11,092  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 180 - HHH000006: Autocommit mode: false
+2020-09-21 23:46:11,092  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure 102 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-09-21 23:46:11,104  INFO [main] - org.hibernate.dialect.Dialect.<init> 145 - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2020-09-21 23:46:11,110  INFO [main] - org.hibernate.engine.transaction.internal.TransactionFactoryInitiator.initiateService 62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2020-09-21 23:46:11,110  INFO [main] - org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory.<init> 47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-09-21 23:46:11,117  INFO [main] - org.hibernate.tool.hbm2ddl.SchemaExport.execute 344 - HHH000227: Running hbm2ddl schema export
+2020-09-21 23:46:11,130  INFO [main] - org.hibernate.tool.hbm2ddl.SchemaExport.execute 406 - HHH000230: Schema export complete
+2020-09-21 23:46:11,133  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.stop 281 - HHH000030: Cleaning up connection pool [jdbc:sqlserver://localhost:1433;databaseName=jweb_2nd_attemp]
+2020-09-21 23:46:11,134  INFO [main] - org.hibernate.cfg.Configuration.configure 2075 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2020-09-21 23:46:11,134  INFO [main] - org.hibernate.cfg.Configuration.getConfigurationInputStream 2094 - HHH000040: Configuration resource: /hibernate.cfg.xml
+2020-09-21 23:46:11,138  INFO [main] - org.hibernate.cfg.Configuration.doConfigure 2216 - HHH000041: Configured SessionFactory: null
+2020-09-21 23:46:11,141  WARN [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure 93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2020-09-21 23:46:11,141  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 166 - HHH000401: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:1433;databaseName=jweb_2nd_attemp]
+2020-09-21 23:46:11,141  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 175 - HHH000046: Connection properties: {user=sa, password=****}
+2020-09-21 23:46:11,141  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 180 - HHH000006: Autocommit mode: false
+2020-09-21 23:46:11,141  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure 102 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-09-21 23:46:11,155  INFO [main] - org.hibernate.dialect.Dialect.<init> 145 - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2020-09-21 23:46:11,160  INFO [main] - org.hibernate.engine.transaction.internal.TransactionFactoryInitiator.initiateService 62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2020-09-21 23:46:11,160  INFO [main] - org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory.<init> 47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-09-21 23:46:11,167  INFO [main] - org.hibernate.tool.hbm2ddl.SchemaExport.execute 344 - HHH000227: Running hbm2ddl schema export
+2020-09-21 23:46:11,178  INFO [main] - org.hibernate.tool.hbm2ddl.SchemaExport.execute 406 - HHH000230: Schema export complete
+2020-09-21 23:46:11,246  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.stop 281 - HHH000030: Cleaning up connection pool [jdbc:sqlserver://localhost:1433;databaseName=jweb_2nd_attemp]
+2020-09-21 23:46:28,643  INFO [main] - org.hibernate.annotations.common.Version.<clinit> 66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2020-09-21 23:46:28,648  INFO [main] - org.hibernate.Version.logVersion 54 - HHH000412: Hibernate Core {4.3.11.Final}
+2020-09-21 23:46:28,650  INFO [main] - org.hibernate.cfg.Environment.<clinit> 239 - HHH000206: hibernate.properties not found
+2020-09-21 23:46:28,651  INFO [main] - org.hibernate.cfg.Environment.buildBytecodeProvider 346 - HHH000021: Bytecode provider name : javassist
+2020-09-21 23:46:28,664  INFO [main] - org.hibernate.cfg.Configuration.configure 2075 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2020-09-21 23:46:28,664  INFO [main] - org.hibernate.cfg.Configuration.getConfigurationInputStream 2094 - HHH000040: Configuration resource: /hibernate.cfg.xml
+2020-09-21 23:46:28,707  INFO [main] - org.hibernate.cfg.Configuration.doConfigure 2216 - HHH000041: Configured SessionFactory: null
+2020-09-21 23:46:28,755  WARN [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure 93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2020-09-21 23:46:28,801  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 166 - HHH000401: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:1433;databaseName=jweb_2nd_attemp]
+2020-09-21 23:46:28,802  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 175 - HHH000046: Connection properties: {user=sa, password=****}
+2020-09-21 23:46:28,802  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 180 - HHH000006: Autocommit mode: false
+2020-09-21 23:46:28,804  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure 102 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-09-21 23:46:29,124  INFO [main] - org.hibernate.dialect.Dialect.<init> 145 - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2020-09-21 23:46:29,233  INFO [main] - org.hibernate.engine.transaction.internal.TransactionFactoryInitiator.initiateService 62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2020-09-21 23:46:29,246  INFO [main] - org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory.<init> 47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-09-21 23:46:29,384  INFO [main] - org.hibernate.tool.hbm2ddl.SchemaExport.execute 344 - HHH000227: Running hbm2ddl schema export
+2020-09-21 23:46:29,392  INFO [main] - org.hibernate.tool.hbm2ddl.SchemaExport.execute 406 - HHH000230: Schema export complete
+2020-09-21 23:46:29,502  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.stop 281 - HHH000030: Cleaning up connection pool [jdbc:sqlserver://localhost:1433;databaseName=jweb_2nd_attemp]
+2020-09-21 23:46:37,024  INFO [main] - org.hibernate.annotations.common.Version.<clinit> 66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2020-09-21 23:46:37,029  INFO [main] - org.hibernate.Version.logVersion 54 - HHH000412: Hibernate Core {4.3.11.Final}
+2020-09-21 23:46:37,031  INFO [main] - org.hibernate.cfg.Environment.<clinit> 239 - HHH000206: hibernate.properties not found
+2020-09-21 23:46:37,032  INFO [main] - org.hibernate.cfg.Environment.buildBytecodeProvider 346 - HHH000021: Bytecode provider name : javassist
+2020-09-21 23:46:37,044  INFO [main] - org.hibernate.cfg.Configuration.configure 2075 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2020-09-21 23:46:37,044  INFO [main] - org.hibernate.cfg.Configuration.getConfigurationInputStream 2094 - HHH000040: Configuration resource: /hibernate.cfg.xml
+2020-09-21 23:46:37,086  INFO [main] - org.hibernate.cfg.Configuration.doConfigure 2216 - HHH000041: Configured SessionFactory: null
+2020-09-21 23:46:37,134  WARN [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure 93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2020-09-21 23:46:37,176  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 166 - HHH000401: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:1433;databaseName=jweb_2nd_attemp]
+2020-09-21 23:46:37,176  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 175 - HHH000046: Connection properties: {user=sa, password=****}
+2020-09-21 23:46:37,177  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 180 - HHH000006: Autocommit mode: false
+2020-09-21 23:46:37,178  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure 102 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-09-21 23:46:37,499  INFO [main] - org.hibernate.dialect.Dialect.<init> 145 - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2020-09-21 23:46:37,603  INFO [main] - org.hibernate.engine.transaction.internal.TransactionFactoryInitiator.initiateService 62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2020-09-21 23:46:37,630  INFO [main] - org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory.<init> 47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-09-21 23:46:37,773  INFO [main] - org.hibernate.tool.hbm2ddl.SchemaExport.execute 344 - HHH000227: Running hbm2ddl schema export
+2020-09-21 23:46:37,782  INFO [main] - org.hibernate.tool.hbm2ddl.SchemaExport.execute 406 - HHH000230: Schema export complete
+2020-09-21 23:46:37,898  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.stop 281 - HHH000030: Cleaning up connection pool [jdbc:sqlserver://localhost:1433;databaseName=jweb_2nd_attemp]
+2020-09-21 23:46:37,899  INFO [main] - org.hibernate.cfg.Configuration.configure 2075 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2020-09-21 23:46:37,899  INFO [main] - org.hibernate.cfg.Configuration.getConfigurationInputStream 2094 - HHH000040: Configuration resource: /hibernate.cfg.xml
+2020-09-21 23:46:37,902  INFO [main] - org.hibernate.cfg.Configuration.doConfigure 2216 - HHH000041: Configured SessionFactory: null
+2020-09-21 23:46:37,905  WARN [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure 93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2020-09-21 23:46:37,905  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 166 - HHH000401: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:1433;databaseName=jweb_2nd_attemp]
+2020-09-21 23:46:37,905  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 175 - HHH000046: Connection properties: {user=sa, password=****}
+2020-09-21 23:46:37,905  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 180 - HHH000006: Autocommit mode: false
+2020-09-21 23:46:37,905  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure 102 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-09-21 23:46:37,920  INFO [main] - org.hibernate.dialect.Dialect.<init> 145 - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2020-09-21 23:46:37,925  INFO [main] - org.hibernate.engine.transaction.internal.TransactionFactoryInitiator.initiateService 62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2020-09-21 23:46:37,926  INFO [main] - org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory.<init> 47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-09-21 23:46:37,933  INFO [main] - org.hibernate.tool.hbm2ddl.SchemaExport.execute 344 - HHH000227: Running hbm2ddl schema export
+2020-09-21 23:46:37,941  INFO [main] - org.hibernate.tool.hbm2ddl.SchemaExport.execute 406 - HHH000230: Schema export complete
+2020-09-21 23:46:37,949  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.stop 281 - HHH000030: Cleaning up connection pool [jdbc:sqlserver://localhost:1433;databaseName=jweb_2nd_attemp]
+2020-09-21 23:47:15,714  INFO [main] - org.hibernate.annotations.common.Version.<clinit> 66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2020-09-21 23:47:15,719  INFO [main] - org.hibernate.Version.logVersion 54 - HHH000412: Hibernate Core {4.3.11.Final}
+2020-09-21 23:47:15,721  INFO [main] - org.hibernate.cfg.Environment.<clinit> 239 - HHH000206: hibernate.properties not found
+2020-09-21 23:47:15,723  INFO [main] - org.hibernate.cfg.Environment.buildBytecodeProvider 346 - HHH000021: Bytecode provider name : javassist
+2020-09-21 23:47:15,736  INFO [main] - org.hibernate.cfg.Configuration.configure 2075 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2020-09-21 23:47:15,736  INFO [main] - org.hibernate.cfg.Configuration.getConfigurationInputStream 2094 - HHH000040: Configuration resource: /hibernate.cfg.xml
+2020-09-21 23:47:15,779  INFO [main] - org.hibernate.cfg.Configuration.doConfigure 2216 - HHH000041: Configured SessionFactory: null
+2020-09-21 23:47:15,828  WARN [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure 93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2020-09-21 23:47:15,870  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 166 - HHH000401: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:1433;databaseName=jweb_2nd_attemp]
+2020-09-21 23:47:15,870  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 175 - HHH000046: Connection properties: {user=sa, password=****}
+2020-09-21 23:47:15,871  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 180 - HHH000006: Autocommit mode: false
+2020-09-21 23:47:15,872  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure 102 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-09-21 23:47:16,184  INFO [main] - org.hibernate.dialect.Dialect.<init> 145 - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2020-09-21 23:47:16,285  INFO [main] - org.hibernate.engine.transaction.internal.TransactionFactoryInitiator.initiateService 62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2020-09-21 23:47:16,294  INFO [main] - org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory.<init> 47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-09-21 23:47:16,437  INFO [main] - org.hibernate.tool.hbm2ddl.SchemaExport.execute 344 - HHH000227: Running hbm2ddl schema export
+2020-09-21 23:47:16,445  INFO [main] - org.hibernate.tool.hbm2ddl.SchemaExport.execute 406 - HHH000230: Schema export complete
+2020-09-21 23:47:16,555  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.stop 281 - HHH000030: Cleaning up connection pool [jdbc:sqlserver://localhost:1433;databaseName=jweb_2nd_attemp]
+2020-09-21 23:47:16,556  INFO [main] - org.hibernate.cfg.Configuration.configure 2075 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2020-09-21 23:47:16,556  INFO [main] - org.hibernate.cfg.Configuration.getConfigurationInputStream 2094 - HHH000040: Configuration resource: /hibernate.cfg.xml
+2020-09-21 23:47:16,560  INFO [main] - org.hibernate.cfg.Configuration.doConfigure 2216 - HHH000041: Configured SessionFactory: null
+2020-09-21 23:47:16,562  WARN [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure 93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2020-09-21 23:47:16,562  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 166 - HHH000401: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:1433;databaseName=jweb_2nd_attemp]
+2020-09-21 23:47:16,562  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 175 - HHH000046: Connection properties: {user=sa, password=****}
+2020-09-21 23:47:16,563  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 180 - HHH000006: Autocommit mode: false
+2020-09-21 23:47:16,563  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure 102 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-09-21 23:47:16,576  INFO [main] - org.hibernate.dialect.Dialect.<init> 145 - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2020-09-21 23:47:16,581  INFO [main] - org.hibernate.engine.transaction.internal.TransactionFactoryInitiator.initiateService 62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2020-09-21 23:47:16,581  INFO [main] - org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory.<init> 47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-09-21 23:47:16,587  INFO [main] - org.hibernate.tool.hbm2ddl.SchemaExport.execute 344 - HHH000227: Running hbm2ddl schema export
+2020-09-21 23:47:16,631  INFO [main] - org.hibernate.tool.hbm2ddl.SchemaExport.execute 406 - HHH000230: Schema export complete
+2020-09-21 23:47:16,651  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.stop 281 - HHH000030: Cleaning up connection pool [jdbc:sqlserver://localhost:1433;databaseName=jweb_2nd_attemp]
+2020-09-21 23:47:43,002  INFO [main] - org.hibernate.annotations.common.Version.<clinit> 66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2020-09-21 23:47:43,007  INFO [main] - org.hibernate.Version.logVersion 54 - HHH000412: Hibernate Core {4.3.11.Final}
+2020-09-21 23:47:43,008  INFO [main] - org.hibernate.cfg.Environment.<clinit> 239 - HHH000206: hibernate.properties not found
+2020-09-21 23:47:43,009  INFO [main] - org.hibernate.cfg.Environment.buildBytecodeProvider 346 - HHH000021: Bytecode provider name : javassist
+2020-09-21 23:47:43,022  INFO [main] - org.hibernate.cfg.Configuration.configure 2075 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2020-09-21 23:47:43,022  INFO [main] - org.hibernate.cfg.Configuration.getConfigurationInputStream 2094 - HHH000040: Configuration resource: /hibernate.cfg.xml
+2020-09-21 23:47:43,069  INFO [main] - org.hibernate.cfg.Configuration.doConfigure 2216 - HHH000041: Configured SessionFactory: null
+2020-09-21 23:47:43,118  WARN [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure 93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2020-09-21 23:47:43,161  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 166 - HHH000401: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:1433;databaseName=jweb_2nd_attemp]
+2020-09-21 23:47:43,161  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 175 - HHH000046: Connection properties: {user=sa, password=****}
+2020-09-21 23:47:43,162  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 180 - HHH000006: Autocommit mode: false
+2020-09-21 23:47:43,163  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure 102 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-09-21 23:47:43,479  INFO [main] - org.hibernate.dialect.Dialect.<init> 145 - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2020-09-21 23:47:43,579  INFO [main] - org.hibernate.engine.transaction.internal.TransactionFactoryInitiator.initiateService 62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2020-09-21 23:47:43,596  INFO [main] - org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory.<init> 47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-09-21 23:47:43,736  INFO [main] - org.hibernate.tool.hbm2ddl.SchemaExport.execute 344 - HHH000227: Running hbm2ddl schema export
+2020-09-21 23:47:43,745  INFO [main] - org.hibernate.tool.hbm2ddl.SchemaExport.execute 406 - HHH000230: Schema export complete
+2020-09-21 23:47:43,857  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.stop 281 - HHH000030: Cleaning up connection pool [jdbc:sqlserver://localhost:1433;databaseName=jweb_2nd_attemp]
+2020-09-21 23:48:26,032  INFO [main] - org.hibernate.annotations.common.Version.<clinit> 66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2020-09-21 23:48:26,037  INFO [main] - org.hibernate.Version.logVersion 54 - HHH000412: Hibernate Core {4.3.11.Final}
+2020-09-21 23:48:26,039  INFO [main] - org.hibernate.cfg.Environment.<clinit> 239 - HHH000206: hibernate.properties not found
+2020-09-21 23:48:26,040  INFO [main] - org.hibernate.cfg.Environment.buildBytecodeProvider 346 - HHH000021: Bytecode provider name : javassist
+2020-09-21 23:48:26,054  INFO [main] - org.hibernate.cfg.Configuration.configure 2075 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2020-09-21 23:48:26,055  INFO [main] - org.hibernate.cfg.Configuration.getConfigurationInputStream 2094 - HHH000040: Configuration resource: /hibernate.cfg.xml
+2020-09-21 23:48:26,099  INFO [main] - org.hibernate.cfg.Configuration.doConfigure 2216 - HHH000041: Configured SessionFactory: null
+2020-09-21 23:48:26,149  WARN [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure 93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2020-09-21 23:48:26,195  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 166 - HHH000401: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:1433;databaseName=jweb_2nd_attemp]
+2020-09-21 23:48:26,195  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 175 - HHH000046: Connection properties: {user=sa, password=****}
+2020-09-21 23:48:26,196  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 180 - HHH000006: Autocommit mode: false
+2020-09-21 23:48:26,197  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure 102 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-09-21 23:48:26,516  INFO [main] - org.hibernate.dialect.Dialect.<init> 145 - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2020-09-21 23:48:26,616  INFO [main] - org.hibernate.engine.transaction.internal.TransactionFactoryInitiator.initiateService 62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2020-09-21 23:48:26,626  INFO [main] - org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory.<init> 47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-09-21 23:48:26,767  INFO [main] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 207 - HHH000228: Running hbm2ddl schema update
+2020-09-21 23:48:26,768  INFO [main] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 218 - HHH000102: Fetching database metadata
+2020-09-21 23:48:26,770  INFO [main] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 230 - HHH000396: Updating schema
+2020-09-21 23:48:26,844  INFO [main] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 65 - HHH000261: Table found: jweb_2nd_attemp.dbo.Content
+2020-09-21 23:48:26,844  INFO [main] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 66 - HHH000037: Columns: [brief, member_id, update_time, id, sort, create_date, title, content]
+2020-09-21 23:48:26,845  INFO [main] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 68 - HHH000108: Foreign keys: [fk_8w4exu9pljlkei9axt5fswbr6]
+2020-09-21 23:48:26,845  INFO [main] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 69 - HHH000126: Indexes: [pk__content__3213e83f1165289d]
+2020-09-21 23:48:26,863  INFO [main] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 65 - HHH000261: Table found: jweb_2nd_attemp.dbo.Member
+2020-09-21 23:48:26,863  INFO [main] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 66 - HHH000037: Columns: [password, update_time, phone, user_name, description, last_name, id, created_date, first_name, email]
+2020-09-21 23:48:26,863  INFO [main] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 68 - HHH000108: Foreign keys: []
+2020-09-21 23:48:26,863  INFO [main] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 69 - HHH000126: Indexes: [pk__member__3213e83f2036863f]
+2020-09-21 23:48:26,864  INFO [main] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 267 - HHH000232: Schema update complete
+2020-09-21 23:48:26,941  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.stop 281 - HHH000030: Cleaning up connection pool [jdbc:sqlserver://localhost:1433;databaseName=jweb_2nd_attemp]
+2020-09-21 23:49:25,774  INFO [main] - org.hibernate.annotations.common.Version.<clinit> 66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2020-09-21 23:49:25,779  INFO [main] - org.hibernate.Version.logVersion 54 - HHH000412: Hibernate Core {4.3.11.Final}
+2020-09-21 23:49:25,780  INFO [main] - org.hibernate.cfg.Environment.<clinit> 239 - HHH000206: hibernate.properties not found
+2020-09-21 23:49:25,782  INFO [main] - org.hibernate.cfg.Environment.buildBytecodeProvider 346 - HHH000021: Bytecode provider name : javassist
+2020-09-21 23:49:25,794  INFO [main] - org.hibernate.cfg.Configuration.configure 2075 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2020-09-21 23:49:25,794  INFO [main] - org.hibernate.cfg.Configuration.getConfigurationInputStream 2094 - HHH000040: Configuration resource: /hibernate.cfg.xml
+2020-09-21 23:49:25,839  INFO [main] - org.hibernate.cfg.Configuration.doConfigure 2216 - HHH000041: Configured SessionFactory: null
+2020-09-21 23:49:25,890  WARN [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure 93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2020-09-21 23:49:25,944  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 166 - HHH000401: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:1433;databaseName=jweb_2nd_attemp]
+2020-09-21 23:49:25,945  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 175 - HHH000046: Connection properties: {user=sa, password=****}
+2020-09-21 23:49:25,945  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 180 - HHH000006: Autocommit mode: false
+2020-09-21 23:49:25,946  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure 102 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-09-21 23:49:26,255  INFO [main] - org.hibernate.dialect.Dialect.<init> 145 - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2020-09-21 23:49:26,356  INFO [main] - org.hibernate.engine.transaction.internal.TransactionFactoryInitiator.initiateService 62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2020-09-21 23:49:26,365  INFO [main] - org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory.<init> 47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-09-21 23:49:26,504  INFO [main] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 207 - HHH000228: Running hbm2ddl schema update
+2020-09-21 23:49:26,505  INFO [main] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 218 - HHH000102: Fetching database metadata
+2020-09-21 23:49:26,507  INFO [main] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 230 - HHH000396: Updating schema
+2020-09-21 23:49:26,580  INFO [main] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 65 - HHH000261: Table found: jweb_2nd_attemp.dbo.Content
+2020-09-21 23:49:26,580  INFO [main] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 66 - HHH000037: Columns: [brief, member_id, update_time, id, sort, create_date, title, content]
+2020-09-21 23:49:26,581  INFO [main] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 68 - HHH000108: Foreign keys: [fk_8w4exu9pljlkei9axt5fswbr6]
+2020-09-21 23:49:26,581  INFO [main] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 69 - HHH000126: Indexes: [pk__content__3213e83f1165289d]
+2020-09-21 23:49:26,599  INFO [main] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 65 - HHH000261: Table found: jweb_2nd_attemp.dbo.Member
+2020-09-21 23:49:26,599  INFO [main] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 66 - HHH000037: Columns: [password, update_time, phone, user_name, description, last_name, id, created_date, first_name, email]
+2020-09-21 23:49:26,599  INFO [main] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 68 - HHH000108: Foreign keys: []
+2020-09-21 23:49:26,599  INFO [main] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 69 - HHH000126: Indexes: [pk__member__3213e83f2036863f]
+2020-09-21 23:49:26,600  INFO [main] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 267 - HHH000232: Schema update complete
+2020-09-21 23:49:26,730  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.stop 281 - HHH000030: Cleaning up connection pool [jdbc:sqlserver://localhost:1433;databaseName=jweb_2nd_attemp]
+2020-09-21 23:50:14,652  INFO [main] - org.hibernate.annotations.common.Version.<clinit> 66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2020-09-21 23:50:14,657  INFO [main] - org.hibernate.Version.logVersion 54 - HHH000412: Hibernate Core {4.3.11.Final}
+2020-09-21 23:50:14,658  INFO [main] - org.hibernate.cfg.Environment.<clinit> 239 - HHH000206: hibernate.properties not found
+2020-09-21 23:50:14,659  INFO [main] - org.hibernate.cfg.Environment.buildBytecodeProvider 346 - HHH000021: Bytecode provider name : javassist
+2020-09-21 23:50:14,672  INFO [main] - org.hibernate.cfg.Configuration.configure 2075 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2020-09-21 23:50:14,672  INFO [main] - org.hibernate.cfg.Configuration.getConfigurationInputStream 2094 - HHH000040: Configuration resource: /hibernate.cfg.xml
+2020-09-21 23:50:14,713  INFO [main] - org.hibernate.cfg.Configuration.doConfigure 2216 - HHH000041: Configured SessionFactory: null
+2020-09-21 23:50:14,761  WARN [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure 93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2020-09-21 23:50:14,802  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 166 - HHH000401: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:1433;databaseName=jweb_2nd_attemp]
+2020-09-21 23:50:14,803  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 175 - HHH000046: Connection properties: {user=sa, password=****}
+2020-09-21 23:50:14,803  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 180 - HHH000006: Autocommit mode: false
+2020-09-21 23:50:14,804  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure 102 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-09-21 23:50:15,117  INFO [main] - org.hibernate.dialect.Dialect.<init> 145 - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2020-09-21 23:50:15,216  INFO [main] - org.hibernate.engine.transaction.internal.TransactionFactoryInitiator.initiateService 62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2020-09-21 23:50:15,220  INFO [main] - org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory.<init> 47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-09-21 23:50:15,364  INFO [main] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 207 - HHH000228: Running hbm2ddl schema update
+2020-09-21 23:50:15,365  INFO [main] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 218 - HHH000102: Fetching database metadata
+2020-09-21 23:50:15,367  INFO [main] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 230 - HHH000396: Updating schema
+2020-09-21 23:50:15,444  INFO [main] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 65 - HHH000261: Table found: jweb_2nd_attemp.dbo.Content
+2020-09-21 23:50:15,444  INFO [main] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 66 - HHH000037: Columns: [brief, member_id, update_time, id, sort, create_date, title, content]
+2020-09-21 23:50:15,444  INFO [main] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 68 - HHH000108: Foreign keys: [fk_8w4exu9pljlkei9axt5fswbr6]
+2020-09-21 23:50:15,444  INFO [main] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 69 - HHH000126: Indexes: [pk__content__3213e83f1165289d]
+2020-09-21 23:50:15,461  INFO [main] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 65 - HHH000261: Table found: jweb_2nd_attemp.dbo.Member
+2020-09-21 23:50:15,462  INFO [main] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 66 - HHH000037: Columns: [password, update_time, phone, user_name, description, last_name, id, created_date, first_name, email]
+2020-09-21 23:50:15,462  INFO [main] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 68 - HHH000108: Foreign keys: []
+2020-09-21 23:50:15,462  INFO [main] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 69 - HHH000126: Indexes: [pk__member__3213e83f2036863f]
+2020-09-21 23:50:15,462  INFO [main] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 267 - HHH000232: Schema update complete
+2020-09-21 23:50:15,531  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.stop 281 - HHH000030: Cleaning up connection pool [jdbc:sqlserver://localhost:1433;databaseName=jweb_2nd_attemp]
+2020-09-21 23:50:15,532  INFO [main] - org.hibernate.cfg.Configuration.configure 2075 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2020-09-21 23:50:15,533  INFO [main] - org.hibernate.cfg.Configuration.getConfigurationInputStream 2094 - HHH000040: Configuration resource: /hibernate.cfg.xml
+2020-09-21 23:50:15,536  INFO [main] - org.hibernate.cfg.Configuration.doConfigure 2216 - HHH000041: Configured SessionFactory: null
+2020-09-21 23:50:15,538  WARN [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure 93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2020-09-21 23:50:15,538  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 166 - HHH000401: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:1433;databaseName=jweb_2nd_attemp]
+2020-09-21 23:50:15,538  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 175 - HHH000046: Connection properties: {user=sa, password=****}
+2020-09-21 23:50:15,538  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 180 - HHH000006: Autocommit mode: false
+2020-09-21 23:50:15,539  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure 102 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-09-21 23:50:15,551  INFO [main] - org.hibernate.dialect.Dialect.<init> 145 - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2020-09-21 23:50:15,556  INFO [main] - org.hibernate.engine.transaction.internal.TransactionFactoryInitiator.initiateService 62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2020-09-21 23:50:15,556  INFO [main] - org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory.<init> 47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-09-21 23:50:15,562  INFO [main] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 207 - HHH000228: Running hbm2ddl schema update
+2020-09-21 23:50:15,562  INFO [main] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 218 - HHH000102: Fetching database metadata
+2020-09-21 23:50:15,564  INFO [main] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 230 - HHH000396: Updating schema
+2020-09-21 23:50:15,584  INFO [main] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 65 - HHH000261: Table found: jweb_2nd_attemp.dbo.Content
+2020-09-21 23:50:15,584  INFO [main] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 66 - HHH000037: Columns: [brief, member_id, update_time, id, sort, create_date, title, content]
+2020-09-21 23:50:15,584  INFO [main] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 68 - HHH000108: Foreign keys: [fk_8w4exu9pljlkei9axt5fswbr6]
+2020-09-21 23:50:15,584  INFO [main] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 69 - HHH000126: Indexes: [pk__content__3213e83f1165289d]
+2020-09-21 23:50:15,600  INFO [main] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 65 - HHH000261: Table found: jweb_2nd_attemp.dbo.Member
+2020-09-21 23:50:15,601  INFO [main] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 66 - HHH000037: Columns: [password, update_time, phone, user_name, description, last_name, id, created_date, first_name, email]
+2020-09-21 23:50:15,601  INFO [main] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 68 - HHH000108: Foreign keys: []
+2020-09-21 23:50:15,601  INFO [main] - org.hibernate.tool.hbm2ddl.TableMetadata.<init> 69 - HHH000126: Indexes: [pk__member__3213e83f2036863f]
+2020-09-21 23:50:15,601  INFO [main] - org.hibernate.tool.hbm2ddl.SchemaUpdate.execute 267 - HHH000232: Schema update complete
+2020-09-21 23:50:15,615  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.stop 281 - HHH000030: Cleaning up connection pool [jdbc:sqlserver://localhost:1433;databaseName=jweb_2nd_attemp]
+2020-09-21 23:50:37,149  INFO [main] - org.hibernate.annotations.common.Version.<clinit> 66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2020-09-21 23:50:37,161  INFO [main] - org.hibernate.Version.logVersion 54 - HHH000412: Hibernate Core {4.3.11.Final}
+2020-09-21 23:50:37,164  INFO [main] - org.hibernate.cfg.Environment.<clinit> 239 - HHH000206: hibernate.properties not found
+2020-09-21 23:50:37,167  INFO [main] - org.hibernate.cfg.Environment.buildBytecodeProvider 346 - HHH000021: Bytecode provider name : javassist
+2020-09-21 23:50:37,199  INFO [main] - org.hibernate.cfg.Configuration.configure 2075 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2020-09-21 23:50:37,200  INFO [main] - org.hibernate.cfg.Configuration.getConfigurationInputStream 2094 - HHH000040: Configuration resource: /hibernate.cfg.xml
+2020-09-21 23:50:37,299  INFO [main] - org.hibernate.cfg.Configuration.doConfigure 2216 - HHH000041: Configured SessionFactory: null
+2020-09-21 23:50:37,433  WARN [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure 93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2020-09-21 23:50:37,491  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 166 - HHH000401: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:1433;databaseName=jweb_2nd_attemp]
+2020-09-21 23:50:37,492  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 175 - HHH000046: Connection properties: {user=sa, password=****}
+2020-09-21 23:50:37,492  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 180 - HHH000006: Autocommit mode: false
+2020-09-21 23:50:37,494  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure 102 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-09-21 23:50:37,990  INFO [main] - org.hibernate.dialect.Dialect.<init> 145 - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2020-09-21 23:50:38,191  INFO [main] - org.hibernate.engine.transaction.internal.TransactionFactoryInitiator.initiateService 62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2020-09-21 23:50:38,197  INFO [main] - org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory.<init> 47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-09-21 23:50:38,553  INFO [main] - org.hibernate.tool.hbm2ddl.SchemaExport.execute 344 - HHH000227: Running hbm2ddl schema export
+2020-09-21 23:50:38,563  INFO [main] - org.hibernate.tool.hbm2ddl.SchemaExport.execute 406 - HHH000230: Schema export complete
+2020-09-21 23:50:38,734  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.stop 281 - HHH000030: Cleaning up connection pool [jdbc:sqlserver://localhost:1433;databaseName=jweb_2nd_attemp]
+2020-09-21 23:50:38,735  INFO [main] - org.hibernate.cfg.Configuration.configure 2075 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2020-09-21 23:50:38,735  INFO [main] - org.hibernate.cfg.Configuration.getConfigurationInputStream 2094 - HHH000040: Configuration resource: /hibernate.cfg.xml
+2020-09-21 23:50:38,738  INFO [main] - org.hibernate.cfg.Configuration.doConfigure 2216 - HHH000041: Configured SessionFactory: null
+2020-09-21 23:50:38,741  WARN [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure 93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2020-09-21 23:50:38,742  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 166 - HHH000401: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:1433;databaseName=jweb_2nd_attemp]
+2020-09-21 23:50:38,742  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 175 - HHH000046: Connection properties: {user=sa, password=****}
+2020-09-21 23:50:38,742  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 180 - HHH000006: Autocommit mode: false
+2020-09-21 23:50:38,742  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure 102 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-09-21 23:50:38,763  INFO [main] - org.hibernate.dialect.Dialect.<init> 145 - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2020-09-21 23:50:38,770  INFO [main] - org.hibernate.engine.transaction.internal.TransactionFactoryInitiator.initiateService 62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2020-09-21 23:50:38,770  INFO [main] - org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory.<init> 47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-09-21 23:50:38,781  INFO [main] - org.hibernate.tool.hbm2ddl.SchemaExport.execute 344 - HHH000227: Running hbm2ddl schema export
+2020-09-21 23:50:38,834  INFO [main] - org.hibernate.tool.hbm2ddl.SchemaExport.execute 406 - HHH000230: Schema export complete
+2020-09-21 23:50:38,850  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.stop 281 - HHH000030: Cleaning up connection pool [jdbc:sqlserver://localhost:1433;databaseName=jweb_2nd_attemp]
+2020-09-21 23:50:52,085  INFO [main] - org.hibernate.annotations.common.Version.<clinit> 66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2020-09-21 23:50:52,095  INFO [main] - org.hibernate.Version.logVersion 54 - HHH000412: Hibernate Core {4.3.11.Final}
+2020-09-21 23:50:52,097  INFO [main] - org.hibernate.cfg.Environment.<clinit> 239 - HHH000206: hibernate.properties not found
+2020-09-21 23:50:52,100  INFO [main] - org.hibernate.cfg.Environment.buildBytecodeProvider 346 - HHH000021: Bytecode provider name : javassist
+2020-09-21 23:50:52,130  INFO [main] - org.hibernate.cfg.Configuration.configure 2075 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2020-09-21 23:50:52,130  INFO [main] - org.hibernate.cfg.Configuration.getConfigurationInputStream 2094 - HHH000040: Configuration resource: /hibernate.cfg.xml
+2020-09-21 23:50:52,208  INFO [main] - org.hibernate.cfg.Configuration.doConfigure 2216 - HHH000041: Configured SessionFactory: null
+2020-09-21 23:50:52,322  WARN [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure 93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2020-09-21 23:50:52,376  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 166 - HHH000401: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:1433;databaseName=jweb_2nd_attemp]
+2020-09-21 23:50:52,377  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 175 - HHH000046: Connection properties: {user=sa, password=****}
+2020-09-21 23:50:52,377  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 180 - HHH000006: Autocommit mode: false
+2020-09-21 23:50:52,379  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure 102 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-09-21 23:50:52,866  INFO [main] - org.hibernate.dialect.Dialect.<init> 145 - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2020-09-21 23:50:53,068  INFO [main] - org.hibernate.engine.transaction.internal.TransactionFactoryInitiator.initiateService 62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2020-09-21 23:50:53,072  INFO [main] - org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory.<init> 47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-09-21 23:50:53,334  INFO [main] - org.hibernate.tool.hbm2ddl.SchemaExport.execute 344 - HHH000227: Running hbm2ddl schema export
+2020-09-21 23:50:53,343  INFO [main] - org.hibernate.tool.hbm2ddl.SchemaExport.execute 406 - HHH000230: Schema export complete
+2020-09-21 23:50:53,477  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.stop 281 - HHH000030: Cleaning up connection pool [jdbc:sqlserver://localhost:1433;databaseName=jweb_2nd_attemp]
+2020-09-21 23:50:53,477  INFO [main] - org.hibernate.cfg.Configuration.configure 2075 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2020-09-21 23:50:53,478  INFO [main] - org.hibernate.cfg.Configuration.getConfigurationInputStream 2094 - HHH000040: Configuration resource: /hibernate.cfg.xml
+2020-09-21 23:50:53,481  INFO [main] - org.hibernate.cfg.Configuration.doConfigure 2216 - HHH000041: Configured SessionFactory: null
+2020-09-21 23:50:53,483  WARN [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure 93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2020-09-21 23:50:53,483  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 166 - HHH000401: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:1433;databaseName=jweb_2nd_attemp]
+2020-09-21 23:50:53,484  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 175 - HHH000046: Connection properties: {user=sa, password=****}
+2020-09-21 23:50:53,484  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator 180 - HHH000006: Autocommit mode: false
+2020-09-21 23:50:53,484  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure 102 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-09-21 23:50:53,503  INFO [main] - org.hibernate.dialect.Dialect.<init> 145 - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2020-09-21 23:50:53,510  INFO [main] - org.hibernate.engine.transaction.internal.TransactionFactoryInitiator.initiateService 62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2020-09-21 23:50:53,510  INFO [main] - org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory.<init> 47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-09-21 23:50:53,519  INFO [main] - org.hibernate.tool.hbm2ddl.SchemaExport.execute 344 - HHH000227: Running hbm2ddl schema export
+2020-09-21 23:50:53,527  INFO [main] - org.hibernate.tool.hbm2ddl.SchemaExport.execute 406 - HHH000230: Schema export complete
+2020-09-21 23:50:53,538  INFO [main] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.stop 281 - HHH000030: Cleaning up connection pool [jdbc:sqlserver://localhost:1433;databaseName=jweb_2nd_attemp]

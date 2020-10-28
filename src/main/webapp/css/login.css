@@ -1,0 +1,11 @@
+html, body, .container-fluid, .row {
+    height: 100%;
+}
+
+#login-form {
+  margin: 0;
+  position: absolute;
+  top: 40%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
